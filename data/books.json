@@ -1,0 +1,2228 @@
+[
+  {
+    "id": "openlibrary:/works/OL1960472W",
+    "source": "openlibrary",
+    "title": "The Science Fiction Hall of Fame -- Volume One",
+    "authors": [
+      "Robert Silverberg",
+      "Robert A. Heinlein",
+      "Arthur C. Clarke",
+      "Isaac Asimov",
+      "Ray Bradbury"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL1960472W",
+      "isbn": []
+    },
+    "publishedYear": 1970
+  },
+  {
+    "id": "openlibrary:/works/OL46125W",
+    "source": "openlibrary",
+    "title": "Foundation",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL46125W",
+      "isbn": []
+    },
+    "publishedYear": 1951
+  },
+  {
+    "id": "openlibrary:/works/OL59688W",
+    "source": "openlibrary",
+    "title": "Stranger in a Strange Land",
+    "authors": [
+      "Robert A. Heinlein"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL59688W",
+      "isbn": []
+    },
+    "publishedYear": 1961
+  },
+  {
+    "id": "openlibrary:/works/OL450124W",
+    "source": "openlibrary",
+    "title": "The Last Man",
+    "authors": [
+      "Mary Shelley"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL450124W",
+      "isbn": []
+    },
+    "publishedYear": 1826
+  },
+  {
+    "id": "openlibrary:/works/OL52267W",
+    "source": "openlibrary",
+    "title": "The Time Machine",
+    "authors": [
+      "H. G. Wells"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL52267W",
+      "isbn": []
+    },
+    "publishedYear": 1895
+  },
+  {
+    "id": "openlibrary:/works/OL893415W",
+    "source": "openlibrary",
+    "title": "Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL893415W",
+      "isbn": []
+    },
+    "publishedYear": 1965
+  },
+  {
+    "id": "openlibrary:/works/OL52266W",
+    "source": "openlibrary",
+    "title": "The Invisible Man",
+    "authors": [
+      "H. G. Wells"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL52266W",
+      "isbn": []
+    },
+    "publishedYear": 0
+  },
+  {
+    "id": "openlibrary:/works/OL10215W",
+    "source": "openlibrary",
+    "title": "Мы",
+    "authors": [
+      "Евгений Иванович Замятин",
+      "Gary Kern",
+      "Alejandro Ariel González",
+      "Tavo Montañez",
+      "Sergio Hernández-Ranera Sánchez",
+      "Gregory Zilboorg",
+      "Alexander Glinka"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL10215W",
+      "isbn": []
+    },
+    "publishedYear": 1924
+  },
+  {
+    "id": "openlibrary:/works/OL35627W",
+    "source": "openlibrary",
+    "title": "Wild seed",
+    "authors": [
+      "Octavia E. Butler"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL35627W",
+      "isbn": []
+    },
+    "publishedYear": 1980
+  },
+  {
+    "id": "openlibrary:/works/OL59681W",
+    "source": "openlibrary",
+    "title": "Great Sf Heinlein Bxs",
+    "authors": [
+      "Robert A. Heinlein"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL59681W",
+      "isbn": []
+    },
+    "publishedYear": 1980
+  },
+  {
+    "id": "google:sBy_DwAAQBAJ",
+    "source": "google_books",
+    "title": "La science-fiction pour les Nuls",
+    "authors": [
+      "Jean-Louis Fetjaine"
+    ],
+    "description": "Embarquez pour un voyage passionnant au-delà du réel ! Découvrez un genre unique, en constante évolution ! Il y a les voyages dans l'espace ou dans le temps, les vaisseaux intergalactiques et les invasions extraterrestres, les robots et les androïdes, les savants fous, les super-héros, l'intelligence artificielle et les mutants... L'univers de la science-fiction est d'une richesse sans limites ! Partez à la découverte de l'histoire de ce genre avec ses précurseurs - Jules Verne et Mary Shelley -, ses auteurs plus modernes - Kim Stanley Robinson ou Pierre Bordage -, et sous toutes ses formes : romans, BD, comics et mangas, films et jeux vidéo...",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "sBy_DwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782412053683"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2412053685"
+        }
+      ]
+    },
+    "publishedYear": "2019-11-28"
+  },
+  {
+    "id": "google:sSq_zgEACAAJ",
+    "source": "google_books",
+    "title": "Le Grand Livre de SCIENCE FICTION",
+    "authors": [
+      "La Ligue Anonyme"
+    ],
+    "description": "Le grand livre de SCIENCE FICTION TOME 1 : 19 HISTOIRES SOMMAIRE 1. Cache-cash 2. Un jeu d'enfants 3. Le biscuit du malheur 4. Je souhaite que je puisse 5. L'hyperespace 6. Le patriote ingénieux 7. Le zoo interplanétaire 8. Le destin de Milton Lewis 9. Le Diable et le Trombone 10. Une rencontre avec les Aliens 11. 1010 connexions 12. Harry Le Protagoniste 13. Tommy le devin 14. L'égratignure 15. Corrida 16. La poussière te louera-t-elle? 17. Le chasseur d'insectes 18. La mission mortelle de Garette Darty 19. L'offre",
+    "categories": [],
+    "identifiers": {
+      "google_id": "sSq_zgEACAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9798756830637"
+        }
+      ]
+    },
+    "publishedYear": "2021-10-31"
+  },
+  {
+    "id": "google:iZBFEAAAQBAJ",
+    "source": "google_books",
+    "title": "La grotte",
+    "authors": [
+      "Richard G. Hole"
+    ],
+    "description": "Toute tentative de rébellion était passible de mort. Essayer de faire tomber l'apathie, employer un travail plus ou moins manuel pour la secouer, même légère, était la dernière douleur. Les désintégrateurs. Là s'arrêteraient les corps, dont il n'y avait même pas la moindre trace... La grotte est une histoire appartenant à la série Science Fiction, une collection de romans de science-fiction et de fantasy",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "iZBFEAAAQBAJ",
+      "industryIdentifiers": []
+    },
+    "publishedYear": null
+  },
+  {
+    "id": "google:8BuEDwAAQBAJ",
+    "source": "google_books",
+    "title": "La Guerre des mondes",
+    "authors": [
+      "H. G. Wells"
+    ],
+    "description": "La Guerre des mondes (The War of the Worlds) est un roman de science-fiction écrit par H. G. Wells, publié en 1898. C'est une des premières oeuvres d'imagination dont le sujet est l'humanité confrontée à une race extraterrestre hostile, en plus d'être le reflet de l'angoisse de l'époque victorienne et de l'impérialisme. Le roman a été adapté en feuilletons radiophoniques (dont une version d'Orson Welles qui aurait défrayé la chronique en 19383), en jeux de rôle, en bande dessinée ainsi qu'en deux longs-métrages (le premier étant réalisé par Byron Haskin en 1953 et le second par Steven Spielberg en 2005).",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "8BuEDwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782322127214"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2322127213"
+        }
+      ]
+    },
+    "publishedYear": "2019-01-17"
+  },
+  {
+    "id": "google:7W5BEAAAQBAJ",
+    "source": "google_books",
+    "title": "Origines",
+    "authors": [
+      "Florence Schneider",
+      "Alexandre Schneider"
+    ],
+    "description": "Sélection spéciale Quinzaine du livre Fantastique : ce titre est à -50% du 25 novembre au 9 décembre 2025. Profitez-en vite !!--EndFragment-- Les Eras, aux yeux sombres et à la peau tannée par le soleil, vivent insouciants et en harmonie avec la nature depuis des milliers d’années sur une terre qu’ils cultivent avec soin pour se nourrir. Les Terros, aux yeux translucides, générés en laboratoire et prédéterminés à la naissance, survivent enfermés dans un bunker souterrain régi par Noé, une intelligence artificielle qui contient la totalité du savoir des hommes. D’où viennent-ils ? Comment la folie des anciens hommes les a-t-elle menés là ? Noé détient des secrets qu’il refuse de dévoiler, même à Jason le génie en informatique chargé de sa maintenance. Mais Noé a une faille et Jason va la découvrir. Il entraînera alors ses amis dans une quête pour la vérité et la survie de son peuple, qui les mènera bien plus loin qu’ils ne l’imaginaient. Origines est un roman d’aventures. C’est aussi une réflexion sur nos modes de vie actuels : il invite le lecteur à s’interroger sur des sujets de société tels que l’environnement, l’éducation, le vivre-ensemble... À PROPOS DES AUTEURES Florence, 53 ans − cadre dans une grande entreprise internationale − et sa fille Alexandra, 22 ans − étudiante en double licence Gestion et Anglais-Japonais −, vivent en famille dans la région lyonnaise depuis de nombreuses années. Elles aiment dessiner, écrire et passer des heures à échanger et à refaire le monde. Elles ont décidé de partager leur vision du monde actuel en écrivant un livre à quatre mains.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "7W5BEAAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782377898114"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2377898114"
+        }
+      ]
+    },
+    "publishedYear": "2021-09-07"
+  },
+  {
+    "id": "google:ps72zwEACAAJ",
+    "source": "google_books",
+    "title": "Boulevard des étoiles",
+    "authors": [
+      "Daniel Sernine"
+    ],
+    "description": "",
+    "categories": [
+      "Science fiction, French-Canadian"
+    ],
+    "identifiers": {
+      "google_id": "ps72zwEACAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "LCCN:92244414"
+        }
+      ]
+    },
+    "publishedYear": "1991"
+  },
+  {
+    "id": "google:N4wTzgEACAAJ",
+    "source": "google_books",
+    "title": "La Guerre des Mondes",
+    "authors": [
+      "Herbert George Wells"
+    ],
+    "description": "Les fables imaginées par H.G. Wells (1866-1946), l'un des pères, peut-être le plus notable, de la science-fiction, a démontré au fil du temps qu'il maintenait une vigueur et touchait certaines sources de l'inconscient humain qui les ont souvent élevées au rang d'icônes du monde moderne. . La guerre des mondes (1898), une histoire au rythme effréné qui raconte l'invasion de la Terre par les Martiens et qui pour la première fois a conduit à l'émergence d'êtres d'autres planètes de la nôtre, a largement marqué le fantasme du XXe siècle et a ouvert un Le récif (celui du contact des hommes avec des êtres extraterrestres) qui est rapidement devenu l'un des plus importants de la science-fiction, servant d'inspiration à de nombreux artistes plus tardifs dans les domaines de la radio, du cinéma, de la littérature et de la bande dessinée. et la télévision.",
+    "categories": [],
+    "identifiers": {
+      "google_id": "N4wTzgEACAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9798575594642"
+        }
+      ]
+    },
+    "publishedYear": "2020-12-02"
+  },
+  {
+    "id": "google:L7zADwAAQBAJ",
+    "source": "google_books",
+    "title": "Nous sommes partout",
+    "authors": [
+      "Guy Adrian"
+    ],
+    "description": "Alors que le monde dérivait et partait en vrille, l'arrivée des robots est apparue comme salvatrice. Mais le sera-t-elle vraiment ? En 2039, le monde a bien changé sous les coups de boutoir des mouvements citoyens écologistes contre des gouvernements toujours plus autoritaires et la présence massive des robots, remplaçants les fonctionnaires dans les services publics, les vendeurs dans les commerces, les ouvriers dans les usines... Yannick Prignat, policier de son état, s'installe chez son père André, agriculteur bientôt converti au bio, en Corrèze, la retraite venue. Ses collègues lui ont offert une sex-robote, jeune et jolie, plus vraie que nature, mais la cohabitation avec André est houleuse. Immergez-vous dans un monde bouleversé par les crises, qui tente de se reconstruire grâce aux nouvelles technologies et aux nouvelles connaissances humaines. Mais jusqu'où peut-on aller dans la technologie sans déshumaniser l'homme et la société qui l'entoure ? EXTRAIT –Pourquoi tu ne commanderais pas une autre robote à « Vraie compagne », modèle rustique, 50-60 ans, bonne ménagère, pour s’occuper de ton cher père ? Il l’appellerait Lucienne ou Georgette et même, avec celle-ci, plus Cynthia, vous pourriez monter un petit bordel rural avec chambres champêtres et grenier à foin. Ça aurait du succès, vu que les vraies femmes ont déserté vos campagnes ! –N’importe quoi, tu es vraiment cinglé ! –Pas tant que ça, figure-toi. Sous forme de clubs privés, les maisons closes reviennent en force à Paris, c’est tendance ! Finis les clubs échangistes, on revient au vieux système : accueil et salons luxueux où l’on fait son choix. Ensuite on trouve les bars et les escaliers qui montent vers les chambres confortables avec des ambiances particulières : voyages, exotisme, gadgets coquins voire S.M., tout y est comme avant 1946, un siècle déjà ! Le plus luxueux est le « 122 », ou « One Two Two » comme disaient les touristes à l’époque. Ah, oui, un petit détail : tout le personnel vénal est composé de robots ! C’est parfaitement légal, jusqu’à ce qu’une bande de pudibonds crétins décident du contraire. À PROPOS DE L'AUTEUR Tout d'abord destiné à exercer le métier de professeur des collèges, mais devenu enseignant-chercheur, formé en chimie organique, en biologie et en pharmacologie, Guy Adrian a poursuivi une carrière dans l'industrie pharmaceutique en tant que directeur de recherche, puis consultant en parcourant notre vaste monde. Après une retraite précoce, il s'est lancé dans la peinture figurative puis dans l'écriture de techno-thrillers. Résidant à Lyon,il essaye d'appliquer le précepte d'un célèbre lyonnais d'adoption : \"Fais ce que voudras !\"",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "L7zADwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9791023614022"
+        }
+      ]
+    },
+    "publishedYear": "2019-11-28"
+  },
+  {
+    "id": "google:IAa5DwAAQBAJ",
+    "source": "google_books",
+    "title": "L'odyssée du Cybérius",
+    "authors": [
+      "Denis Ravel"
+    ],
+    "description": "Rejoignez l'équipage du Cybérius en 2450 pour parcourir l'univers et ses secrets, en quête d'un futur pour l'Humanité. À cette époque, les fusées porteuses ne sont plus nécessaires, la puissance des moteurs atomiques suffit à propulser les vaisseaux hors de l’espace terrestre. Le Cybérius traversa donc l’atmosphère à grande vitesse et fut hors de vue quelques secondes plus tard... À bord les membres de l’équipage seront-ils à la hauteur des dangers à surmonter pour accomplir leur mission ? Un voyage dans l'espace-temps rempli de découvertes et d'aventures qui nous invite à dépasser les frontières de notre réel... EXTRAIT La rentrée dans le champ d’astéroïdes fut fracassante, le champ visuel des trois pilotes fut tout à coup comme parsemé d’étoiles. Isis menait le vaisseau avec une parfaite maîtrise. — Comme c’est beau ! s’écria Kennedy. — On se damnerait pour un tel paysage, répondit Isis en se tournant vers Goethe, le sourire aux lèvres. Le vaisseau, souple et aérien, semblait poursuivre sa route, traçant dans l’espace le sillon de son immuable destin. Soudain, tout sembla s’anéantir et se détruire en un instant, un terrible choc éclata contre les parois du Cybérius. Les témoins lumineux et sonores se mirent en action. — Destruction et dépressurisation en zones 4, 8, 12, 14 et 16, hurla Kennedy. L’astéroïde avait fait énormément de dégâts. — Nous avons perdu trois hommes en zone 4, deux hommes en zone 8 et trois femmes en zone 16. La moitié de l’équipage homme et un tiers des femmes en état d’hibernation venaient de disparaître, emportés ou tués par le vide sidéral. Les sirènes hurlaient, à l’intérieur du vaisseau les doublures s’agitaient avec un incroyable sang-froid. CE QU'EN PENSE LA CRITIQUE Une histoire SF qui évolue dans un univers fouillé empreint de péripéties étranges et de poésie. - Irisyne, Babelio À PROPOS DE L'AUTEUR Fils d’artistes peintres, Denis Ravel a été tour à tour publicitaire, puis éditeur. Passionné par les écrivains romantiques du XIXe siècle il apprécie particulièrement Edgar Allan Poe, Gérard de Nerval, Théophile Gautier, ainsi que les romans d’aventures. Citons : Typhon de Joseph Conrad, ou encore Lord Jim, voir entre autre les aventures d’Arthur Gordon Pym. Aujourd’hui auteur d’une vingtaine de romans et de nouvelles, il aime particulièrement écrire ce qu’il appelle ses duels amoureux. Il apprécie d’intégrer une note de fantastique dans ses histoires. Croyant, il manifeste clairement sa foi dans ses écrits.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "IAa5DwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782876836846"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "287683684X"
+        }
+      ]
+    },
+    "publishedYear": "2019-10-25"
+  },
+  {
+    "id": "google:PbMdeizaCNcC",
+    "source": "google_books",
+    "title": "Science-fiction",
+    "authors": [
+      "Everett Franklin Bleiler",
+      "Richard Bleiler"
+    ],
+    "description": "Complementing Science-Fiction: The Early Years, which surveys science-fiction published in book form from its beginnings through 1930, the present volume covers all the science-fiction printed in the genre magazines--Amazing, Astounding, and Wonder, along with offshoots and minor magazines--from 1926 through 1936. This is the first time this historically important literary phenomenon, which stands behind the enormous modern development of science-fiction, has been studied thoroughly and accurately. The heart of the book is a series of descriptions of all 1,835 stories published during this period, plus bibliographic information. Supplementing this are many useful features: detailed histories of each of the magazines, an issue by issue roster of contents, a technical analysis of the art work, brief authors' biographies, poetry and letter indexes, a theme and motif index of approximately 30,0000 entries, and general indexes. Science-Fiction: The Gernsback Years is not only indispensable for reference librarians, collectors, readers, and scholars interested in science-fiction, it is also of importance to the study of popular culture during the Great Depression in the United States. Most of its data, which are largely based on rare and almost unobtainable sources, are not available elsewhere.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "PbMdeizaCNcC",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0873386043"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780873386043"
+        }
+      ]
+    },
+    "publishedYear": "1998"
+  },
+  {
+    "id": "openlibrary:/works/OL15437W",
+    "source": "openlibrary",
+    "title": "Lilith",
+    "authors": [
+      "George MacDonald"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL15437W",
+      "isbn": []
+    },
+    "publishedYear": 1895
+  },
+  {
+    "id": "openlibrary:/works/OL262384W",
+    "source": "openlibrary",
+    "title": "The Sea Fairies",
+    "authors": [
+      "L. Frank Baum"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL262384W",
+      "isbn": []
+    },
+    "publishedYear": 1911
+  },
+  {
+    "id": "openlibrary:/works/OL99539W",
+    "source": "openlibrary",
+    "title": "The Phoenix and the Carpet",
+    "authors": [
+      "Edith Nesbit"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL99539W",
+      "isbn": []
+    },
+    "publishedYear": 1903
+  },
+  {
+    "id": "openlibrary:/works/OL99541W",
+    "source": "openlibrary",
+    "title": "The Enchanted Castle",
+    "authors": [
+      "Edith Nesbit"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL99541W",
+      "isbn": []
+    },
+    "publishedYear": 1907
+  },
+  {
+    "id": "openlibrary:/works/OL15450W",
+    "source": "openlibrary",
+    "title": "Phantastes",
+    "authors": [
+      "George MacDonald"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL15450W",
+      "isbn": []
+    },
+    "publishedYear": 1850
+  },
+  {
+    "id": "openlibrary:/works/OL462007W",
+    "source": "openlibrary",
+    "title": "Peter Pan",
+    "authors": [
+      "J. M. Barrie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL462007W",
+      "isbn": []
+    },
+    "publishedYear": 1911
+  },
+  {
+    "id": "openlibrary:/works/OL85892W",
+    "source": "openlibrary",
+    "title": "Dracula",
+    "authors": [
+      "Bram Stoker"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL85892W",
+      "isbn": []
+    },
+    "publishedYear": 1897
+  },
+  {
+    "id": "openlibrary:/works/OL2895536W",
+    "source": "openlibrary",
+    "title": "Carmilla",
+    "authors": [
+      "Sheridan Le Fanu"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL2895536W",
+      "isbn": []
+    },
+    "publishedYear": 1871
+  },
+  {
+    "id": "openlibrary:/works/OL17453W",
+    "source": "openlibrary",
+    "title": "She",
+    "authors": [
+      "H. Rider Haggard"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL17453W",
+      "isbn": []
+    },
+    "publishedYear": 1886
+  },
+  {
+    "id": "openlibrary:/works/OL3388961W",
+    "source": "openlibrary",
+    "title": "The Great God Pan",
+    "authors": [
+      "Arthur Machen"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL3388961W",
+      "isbn": []
+    },
+    "publishedYear": 1894
+  },
+  {
+    "id": "google:sfKDDwAAQBAJ",
+    "source": "google_books",
+    "title": "Fantasy Art and Studies 2",
+    "authors": [
+      "les Têtes Imaginaires"
+    ],
+    "description": "Ce deuxième numéro de Fantasy Art and Studies est consacré à la Fantasy urbaine. Retrouvez 6 nouvelles (dont une en anglais), des articles sur Neil Gaiman, Lauren Beukes, et sur le comics Fables et les séries Grimm et Once Upon a Time, ainsi qu'en bonus un entretien avec Léa Silhol, pionnière de la Fantasy urbaine en France. This second issue of Fantasy Art and Studies deals with Urban Fantasy. Discover 6 short stories (including one in English), and papers dealing with Neil Gaiman's Neverwhere, Lauren Beukes's Zoo City, and the comics Fables and the TV series Grimm and Once Upon a Time. Bonus: an interview with Léa Silhol, pioneer of Urban Fantasy in France.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "sfKDDwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782901099062"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2901099068"
+        }
+      ]
+    },
+    "publishedYear": "2019-01-15"
+  },
+  {
+    "id": "google:mkOEDwAAQBAJ",
+    "source": "google_books",
+    "title": "Fantasy Art and Studies 3",
+    "authors": [
+      "les Têtes Imaginaires"
+    ],
+    "description": "Qu'est-ce que la Science Fantasy ? Où situer ces oeuvres à la frontière entre Fantasy et Science-Fiction ? Les articles et les nouvelles du troisième numéro de Fantasy Art and Studies apportent des éléments de réponse. Au sommaire, une définition de la Science Fantasy en lien avec les pulps et l'émergence des comics, des robots à la cour du roi Arthur, la confrontation entre un chevalier médiéval et un vaisseau venu d'ailleurs, un Orque prêt au combat, une chef elfe et ses soldats à l'assaut du système de Grimm, une scientifique dans un monde médiéval fantastique, l'univers des light novels, et aussi de la comédie. Sans oublier les illustrations de Guillaume Labrude, Julie Ramel et Antoine Pelloux et le premier volet de la BD de Guillaume Labrude. What is Science Fantasy? What about the works which subvert the frontiers between Fantasy and Science Fiction? The articles and short stories of the 3rd issue of Fantasy Art and Studies give some answers. Here is what to expect: a definition of Science Fantasy related to pulps and the rise of comics books, robots at King Arthur's Court, the confrontation between a medieval knight and a vessel from far away, an Orc ready for battle, an elf leader and her soldiers in Grimm system, a scientist in a medieval fantastic world, the universe of light novels, and also a good deal of comedy, plus illustrations by Guillaume Labrude, Julie Ramel and Antoine Pelloux. You will also discover the first chapter of Guillaume Labrude's comics.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "mkOEDwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782901099086"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2901099084"
+        }
+      ]
+    },
+    "publishedYear": "2019-01-18"
+  },
+  {
+    "id": "google:njGZDQAAQBAJ",
+    "source": "google_books",
+    "title": "Les dragons de la Fantasy : legs du passé et renouveau",
+    "authors": [
+      "Daisy de Palmas Jauze"
+    ],
+    "description": "Daisy de Palmas Jauze a ressenti le souffle draconique le jour de la soutenance de son master sur la Fantasy. Depuis, elle n’a cessé de quêter chaque facette du fabuleux géant. Elle a publié un premier essai en 2012, Saints et dragons, centré sur la rencontre fatidique de ces deux personnages ; la créature étant alors perçue comme monstrueuse, image véhiculée par le mythe judéo-chrétien de la Fin du Monde.",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "njGZDQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782754724869"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2754724869"
+        }
+      ]
+    },
+    "publishedYear": "2014-03-31"
+  },
+  {
+    "id": "google:ORAPAAAAYAAJ",
+    "source": "google_books",
+    "title": "Tales of Fantasy and Fact",
+    "authors": [
+      "Brander Matthews"
+    ],
+    "description": "Collection of imaginative short stories, blending elements of fantasy and reality, exploring themes of adventure and the peculiarities of human experience.",
+    "categories": [
+      "Fantasy fiction, American"
+    ],
+    "identifiers": {
+      "google_id": "ORAPAAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "HARVARD:HXY1X3"
+        }
+      ]
+    },
+    "publishedYear": "1896"
+  },
+  {
+    "id": "google:XtY-AAAAYAAJ",
+    "source": "google_books",
+    "title": "A Midnight Fantasy",
+    "authors": [
+      "Thomas Bailey Aldrich"
+    ],
+    "description": "",
+    "categories": [
+      "Hamlet (Legendary character)"
+    ],
+    "identifiers": {
+      "google_id": "XtY-AAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "HARVARD:HWJSK6"
+        }
+      ]
+    },
+    "publishedYear": "1877"
+  },
+  {
+    "id": "google:EW0rWeInL6AC",
+    "source": "google_books",
+    "title": "Fantasy",
+    "authors": [],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "EW0rWeInL6AC",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCSB:31205020335673"
+        }
+      ]
+    },
+    "publishedYear": "1935"
+  },
+  {
+    "id": "google:8CVjDwAAQBAJ",
+    "source": "google_books",
+    "title": "La Dragon Fantasy",
+    "authors": [
+      "Daisy de Palmas Jauze"
+    ],
+    "description": "L’auteure, spécialiste des dragons dans la littérature de tout temps, analyse les composants itératifs et les ingrédients du succès contemporain d’un sous-genre de la Fantasy centré sur ces créatures légendaires qu’elle baptise la Dragon Fantasy.",
+    "categories": [
+      "Literary Criticism"
+    ],
+    "identifiers": {
+      "google_id": "8CVjDwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782754741552"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2754741550"
+        }
+      ]
+    },
+    "publishedYear": "2018-07-13"
+  },
+  {
+    "id": "google:14W0AAAAIAAJ",
+    "source": "google_books",
+    "title": "The Magazine of Fantasy and Science Fiction",
+    "authors": [
+      "Anthony Boucher",
+      "J. Francis McComas"
+    ],
+    "description": "",
+    "categories": [
+      "Fantasy fiction"
+    ],
+    "identifiers": {
+      "google_id": "14W0AAAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCAL:B4324513"
+        }
+      ]
+    },
+    "publishedYear": "1984"
+  },
+  {
+    "id": "google:l-YDAAAAYAAJ",
+    "source": "google_books",
+    "title": "Tales of Fantasy",
+    "authors": [
+      "Tudor Jenks"
+    ],
+    "description": "A collection of stories and fables from around the world.",
+    "categories": [
+      "Children's stories"
+    ],
+    "identifiers": {
+      "google_id": "l-YDAAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "NYPL:33433082333174"
+        }
+      ]
+    },
+    "publishedYear": "1902"
+  },
+  {
+    "id": "google:kvZgAAAAMAAJ",
+    "source": "google_books",
+    "title": "Comedy, Fantasy and Colonialism",
+    "authors": [
+      "Graeme Harper"
+    ],
+    "description": "This work assesses the role and character of comedy and fantasy in colonial societies from India to Ireland, Australia to Cuba, Africa to North America. It deals with both oral and written traditions, the history of comic and fantastic discourse, visual, theatrical and literary representations. This title answers such questions as \"What are the differing traditions of comic discourse in Western and non-Western societies?\", \"How is humour and fantasy culture specific?\", \"In what ways do local traditions of humour and fantasy adapt to imperial invasion?\", \"How have colonisers used humour to deal with unfamiliar and sometimes hostile conditions?\" and \"What is the relationship between the fantastic, the parodic and the satirical in the create of a sense of national character?\"",
+    "categories": [
+      "History"
+    ],
+    "identifiers": {
+      "google_id": "kvZgAAAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UOM:39015056162095"
+        }
+      ]
+    },
+    "publishedYear": "2002-08"
+  },
+  {
+    "id": "openlibrary:/works/OL472458W",
+    "source": "openlibrary",
+    "title": "A Caribbean Mystery",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL472458W",
+      "isbn": []
+    },
+    "publishedYear": 1964
+  },
+  {
+    "id": "openlibrary:/works/OL472715W",
+    "source": "openlibrary",
+    "title": "The Mysterious Affair at Styles",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL472715W",
+      "isbn": []
+    },
+    "publishedYear": 1920
+  },
+  {
+    "id": "openlibrary:/works/OL471603W",
+    "source": "openlibrary",
+    "title": "The Mystery of the Blue Train",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL471603W",
+      "isbn": []
+    },
+    "publishedYear": 1928
+  },
+  {
+    "id": "openlibrary:/works/OL471784W",
+    "source": "openlibrary",
+    "title": "The Seven Dials Mystery",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL471784W",
+      "isbn": []
+    },
+    "publishedYear": 1920
+  },
+  {
+    "id": "openlibrary:/works/OL472526W",
+    "source": "openlibrary",
+    "title": "The Hollow",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL472526W",
+      "isbn": []
+    },
+    "publishedYear": 1946
+  },
+  {
+    "id": "openlibrary:/works/OL472572W",
+    "source": "openlibrary",
+    "title": "Murder in Mesopotamia",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL472572W",
+      "isbn": []
+    },
+    "publishedYear": 1936
+  },
+  {
+    "id": "openlibrary:/works/OL471664W",
+    "source": "openlibrary",
+    "title": "The Sittaford Mystery",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL471664W",
+      "isbn": []
+    },
+    "publishedYear": 1931
+  },
+  {
+    "id": "openlibrary:/works/OL471670W",
+    "source": "openlibrary",
+    "title": "The Clocks",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL471670W",
+      "isbn": []
+    },
+    "publishedYear": 1963
+  },
+  {
+    "id": "openlibrary:/works/OL471666W",
+    "source": "openlibrary",
+    "title": "Five Little Pigs",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL471666W",
+      "isbn": []
+    },
+    "publishedYear": 1942
+  },
+  {
+    "id": "openlibrary:/works/OL472536W",
+    "source": "openlibrary",
+    "title": "Third Girl",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL472536W",
+      "isbn": []
+    },
+    "publishedYear": 1966
+  },
+  {
+    "id": "google:6PcuEQAAQBAJ",
+    "source": "google_books",
+    "title": "La Bonne et le Manoir : Un Crime Insoluble (Un Cozy Mystery La Bonne et le Manoir – Tome 4)",
+    "authors": [
+      "Fiona Grace"
+    ],
+    "description": "Dans une demeure ancestrale somptueuse, une querelle de famille latente prend un virage dramatique lorsqu’une tentative de meurtre contre l’héritier, un jeune célibataire, tourne mal. Alors que les tensions s’accentuent, Mary doit se confronter à une série de fourberies familiales pour démasquer le tueur avant qu’il ne frappe à nouveau… LA BONNE ET LE MANOIR : UN CRIME INSOLUBLE est le tome 4 d’une série de romans policiers historiques charmants, écrits par Fiona Grace, l’auteure du best-seller Meurtre au Manoir, qui a reçu plus de 10 000 critiques à cinq étoiles ! Alors que Mary s’adapte aux règles et aux subtilités de la haute-société, elle découvre aussi ses secrets les mieux gardés et les plus sombres. En qualité de domestique, Mary se meut dans les manoirs sans être remarquée, sans qu’on tienne compte d’elle, ce qui lui permet de surprendre les bribes d’histoires d’amours contrariées, les commérages des autres domestiques, les secrets qui s’échappent des bouches de l’élite et des plus riches. Mary se plonge de plus en plus profondément dans le tissu de secrets que renferme l’imposant manoir où elle travaille et met à jour une série de personnages excentriques et intrigants, possédant chacun leurs propres secrets — et leurs propres mobiles pour commettre un meurtre. Mary percera-t-elle leurs secrets à temps ? Ou deviendra-t-elle simplement l’objet d’une nouvelle anecdote susurrée dans les antichambres ? Série de romans policiers historiques et charmants qui transporte le lecteur à travers le passé, LA BONNE ET LE MANOIR ravira ses lecteurs : envoûtant, doté d’une atmosphère unique et impossible à lâcher. Un livre captivant regorgeant de rebondissements surprenants, d’événements imprévus et d’énigmes apparemment impossibles à résoudre. Il vous tiendra éveillé tard dans la nuit et vous tomberez amoureux de son inoubliable héroïne. D’autres volumes de la série seront bientôt disponibles !",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "6PcuEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781094370361"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1094370363"
+        }
+      ]
+    },
+    "publishedYear": "2024-10-16"
+  },
+  {
+    "id": "google:iPcuEQAAQBAJ",
+    "source": "google_books",
+    "title": "La Bonne et le Manoir : Une Mort Scandaleuse (Un Cozy Mystery La Bonne et le Manoir – Tome 2)",
+    "authors": [
+      "Fiona Grace"
+    ],
+    "description": "Après la Seconde Guerre Mondiale, en Angleterre, une jeune femme intelligente du nom de Mary Adams se retrouve propulsée dans un univers de privilèges et de secrets lorsqu’elle passe d’ouvrière d’usine, poste qu’elle a occupé pendant la guerre, à bonne dans un grand domaine. Envoyée dans une nouvelle demeure, Mary entend par hasard une chose qu’elle n’aurait pas dû apprendre. Quand la seule personne à savoir la vérité est retrouvée mort, Mar fait le serment de résoudre le mystère dissimulé dans ce manoir somptueux… LA BONNE ET LE MANOIR : UNE MORT SCANDALEUSE (Un Cozy Mystery La Bonne et le Manoir – Tome 2) est le second tome de la charmante série de cozy mystery historiques par Fiona Grace, l’autrice à succès de MEURTRE AU MANOIR, qui compte plus de 10.000 évaluations à 5 étoiles ! ⭐⭐⭐⭐⭐ Alors que Mary doit s’adapter aux subtilités de la haute société, elle se retrouve aussi aux premières loges de leurs secrets le plus sombres. En tant que bonne, Mary passe de pièce en pièce, inaperçue et ignorée, ce qui lui permet de surprendre des histoires d’amants abandonnés, les commérages des autres bonnes, et des secrets de la bouche même des riches et puissants. En se plongeant plus profondément dans la toile complexe des secrets du manoir majestueux, elle fait la connaissance de personnages excentriques et intrigants, avec chacun ses propres secrets – et leur propre mobile pour le meurtre. Mary découvrira-t-elle leurs secrets à temps ? Ou deviendra-t-elle juste une autre histoire murmurée dans les grands halls ? Charmante série de cozy mystery historiques qui fait voyager les lecteurs dans le temps, LA BONNE ET LE MANOIR est un roman policier de premier choix : envoûtant, évocateur, et impossible à reposer. Livre captivant rempli de rebondissements et d’énigmes difficiles à résoudre, il vous fera lire jusque tard dans la nuit, tandis que vous tomberez amoureux de son héroïne inoubliable. Les tomes suivants de la série sont disponibles !",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "iPcuEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781094369020"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1094369020"
+        }
+      ]
+    },
+    "publishedYear": "2024-10-02"
+  },
+  {
+    "id": "google:hPcuEQAAQBAJ",
+    "source": "google_books",
+    "title": "La Bonne et le Manoir : Un Invité Disparu (Un Cozy Mystery La Bonne et le Manoir – Tome 3)",
+    "authors": [
+      "Fiona Grace"
+    ],
+    "description": "Au cœur de l’Angleterre post-Seconde Guerre mondiale, une jeune femme astucieuse du nom de Mary Adams se retrouve propulsée dans un univers de privilèges et de secrets lorsqu’elle troque sa casquette d’ouvrière dans une usine de guerre pour un bonnet de domestique dans un majestueux domaine. Quand Mary commence à travailler dans les cuisines de la demeure d’une famille prestigieuse, des fiançailles sont célébrées à l’occasion d’une fête dont l’atmosphère est lourde de tension et de secrets. Soudain, un meurtre au poison ébranle la façade d’une union forcée et Mary doit découvrir l’identité du tueur avant que ce dernier ne détruise plus que des fiançailles… LA BONNE ET LE MANOIR : UN INVITÉ DISPARU est le tome 3 d’une série de romans policiers historiques charmants, écrits par Fiona Grace, l’auteure du best-seller Meurtre au Manoir, qui a reçu plus de 10 000 critiques à cinq étoiles ! Alors que Mary s’adapte aux règles et aux subtilités de la haute-société, elle découvre aussi ses secrets les mieux gardés et les plus sombres. En qualité de domestique, Mary se meut dans les manoirs sans être remarquée, sans qu’on tienne compte d’elle, ce qui lui permet de surprendre les bribes d’histoires d’amours contrariées, les commérages des autres domestiques, les secrets qui s’échappent des bouches de l’élite et des plus riches. Mary se plonge de plus en plus profondément dans le tissu de secrets que renferme l’imposant manoir où elle travaille et met à jour une série de personnages excentriques et intrigants, possédant chacun leurs propres secrets — et leurs propres mobiles pour commettre un meurtre. Mary percera-t-elle leurs secrets à temps ? Ou deviendra-t-elle simplement l’objet d’une nouvelle anecdote susurrée dans les antichambres ? Série de romans policiers historiques et charmants qui transporte le lecteur à travers le passé, LA BONNE ET LE MANOIR ravira ses lecteurs : envoûtant, doté d’une atmosphère unique et impossible à lâcher. Un livre captivant regorgeant de rebondissements surprenants, d’événements imprévus et d’énigmes apparemment impossibles à résoudre. Il vous tiendra éveillé tard dans la nuit et vous tomberez amoureux de son inoubliable héroïne. D’autres volumes de la série seront bientôt disponibles !",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "hPcuEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781094370354"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1094370355"
+        }
+      ]
+    },
+    "publishedYear": "2024-10-09"
+  },
+  {
+    "id": "google:0PcuEQAAQBAJ",
+    "source": "google_books",
+    "title": "La Bonne et le Manoir: Un Cambriolage Impossible (Un Cozy Mystery La Bonne et le Manoir – Tome 5)",
+    "authors": [
+      "Fiona Grace"
+    ],
+    "description": "Quand un membre de la famille éloigné engage Mary, elle se sent finalement véritablement chez elle — jusqu’à ce qu’une mort inattendue bouleverse le calme… LA BONNE ET LE MANOIR : UN CAMBRIOLAGE IMPOSSIBLE est le tome 5 d’une série de romans policiers historiques charmants, écrits par Fiona Grace, l’auteure du best-seller Meurtre au Manoir, qui a reçu plus de 10 000 critiques à cinq étoiles ! Alors que Mary s’adapte aux règles et aux subtilités de la haute-société, elle découvre aussi ses secrets les mieux gardés et les plus sombres. En qualité de domestique, Mary se meut dans les manoirs sans être remarquée, sans qu’on tienne compte d’elle, ce qui lui permet de surprendre les bribes d’histoires d’amours contrariées, les commérages des autres domestiques, les secrets qui s’échappent des bouches de l’élite et des plus riches. Mary se plonge de plus en plus profondément dans le tissu de secrets que renferme l’imposant manoir où elle travaille et met à jour une série de personnages excentriques et intrigants, possédant chacun leurs propres secrets — et leurs propres mobiles pour commettre un meurtre. Mary percera-t-elle leurs secrets à temps ? Ou deviendra-t-elle simplement l’objet d’une nouvelle anecdote susurrée dans les antichambres ? Série de romans policiers historiques et charmants qui transporte le lecteur à travers le passé, LA BONNE ET LE MANOIR ravira ses lecteurs : envoûtant, doté d’une atmosphère unique et impossible à lâcher. Un livre captivant regorgeant de rebondissements surprenants, d’événements imprévus et d’énigmes apparemment impossibles à résoudre. Il vous tiendra éveillé tard dans la nuit et vous tomberez amoureux de son inoubliable héroïne. D’autres volumes de la série seront bientôt disponibles !",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "0PcuEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781094370378"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1094370371"
+        }
+      ]
+    },
+    "publishedYear": "2024-10-23"
+  },
+  {
+    "id": "google:cAToDwAAQBAJ",
+    "source": "google_books",
+    "title": "The Mystery Cults",
+    "authors": [
+      "charles Imbert"
+    ],
+    "description": "A presentation of the Mystery Cults in the Antique mediterranean civilisation, including the myths and patterns, and what is known of the rites, for greek cults, and the so called egyptians and orientals cults",
+    "categories": [
+      "Religion"
+    ],
+    "identifiers": {
+      "google_id": "cAToDwAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782491456061"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2491456060"
+        }
+      ]
+    },
+    "publishedYear": "2020-05-06"
+  },
+  {
+    "id": "google:rThPEQAAQBAJ",
+    "source": "google_books",
+    "title": "Mystery Lane 06 - Le gnome aux diamants",
+    "authors": [
+      "Hari"
+    ],
+    "description": "Un mystérieux voleur s’empare des diamants de Londres, du plus petit au plus grand ! L’inspecteur McFlare a besoin de l’aide de Clever et Bro pour l’empêcher de dérober un célèbre bijou au British Museum. Les deux rongeurs réussiront-ils à récolter suffisamment d’indices pour le démasquer ?",
+    "categories": [
+      "Juvenile Fiction"
+    ],
+    "identifiers": {
+      "google_id": "rThPEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9782017333098"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "2017333093"
+        }
+      ]
+    },
+    "publishedYear": "2025-05-07"
+  },
+  {
+    "id": "google:lqsEAQAAIAAJ",
+    "source": "google_books",
+    "title": "The Mystery of Metropolisville",
+    "authors": [
+      "Edward Eggleston"
+    ],
+    "description": "The Mystery of Metropolisville centers on a tragic boating accident on \"Diamond Lake\" in \"Metropolisville,\" which lies near the \"Big Gun River\" in \"Wheat County.\" The plot is populated with various Western types, such as a seedy land speculator named Mr. Plausaby, his beautiful step-daughter Katy, a college student from back east who falls in love with Katy, Whiskey Jim the stage-coach driver, and a displaced Hoosier poet in a sod cabin",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "lqsEAQAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCAL:B4103989"
+        }
+      ]
+    },
+    "publishedYear": "1873"
+  },
+  {
+    "id": "google:z184AAAAIAAJ",
+    "source": "google_books",
+    "title": "The Excellent Mystery",
+    "authors": [
+      "Lord Pimlico"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "z184AAAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCAL:B3548656"
+        }
+      ]
+    },
+    "publishedYear": "1888"
+  },
+  {
+    "id": "google:OntUAAAAYAAJ",
+    "source": "google_books",
+    "title": "The Mystery of Growth, and Other Discourses",
+    "authors": [
+      "Edward White"
+    ],
+    "description": "",
+    "categories": [
+      "Christian life"
+    ],
+    "identifiers": {
+      "google_id": "OntUAAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UVA:X030809297"
+        }
+      ]
+    },
+    "publishedYear": "1877"
+  },
+  {
+    "id": "google:frocYWv4nO8C",
+    "source": "google_books",
+    "title": "The Mystery of Mirbridge",
+    "authors": [
+      "James Payn"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "frocYWv4nO8C",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "BSB:BSB11664867"
+        }
+      ]
+    },
+    "publishedYear": "1888"
+  },
+  {
+    "id": "openlibrary:/works/OL118388W",
+    "source": "openlibrary",
+    "title": "Flatland",
+    "authors": [
+      "Edwin Abbott Abbott",
+      "Abbott"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL118388W",
+      "isbn": []
+    },
+    "publishedYear": 1884
+  },
+  {
+    "id": "openlibrary:/works/OL455512W",
+    "source": "openlibrary",
+    "title": "The Blithedale Romance",
+    "authors": [
+      "Nathaniel Hawthorne"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL455512W",
+      "isbn": []
+    },
+    "publishedYear": 1852
+  },
+  {
+    "id": "openlibrary:/works/OL1066524W",
+    "source": "openlibrary",
+    "title": "Pygmalion",
+    "authors": [
+      "George Bernard Shaw"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL1066524W",
+      "isbn": []
+    },
+    "publishedYear": 1912
+  },
+  {
+    "id": "openlibrary:/works/OL863808W",
+    "source": "openlibrary",
+    "title": "Ivanhoe",
+    "authors": [
+      "Sir Walter Scott"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL863808W",
+      "isbn": []
+    },
+    "publishedYear": 1800
+  },
+  {
+    "id": "openlibrary:/works/OL176092W",
+    "source": "openlibrary",
+    "title": "The Moonstone",
+    "authors": [
+      "Wilkie Collins"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL176092W",
+      "isbn": []
+    },
+    "publishedYear": 1800
+  },
+  {
+    "id": "openlibrary:/works/OL468485W",
+    "source": "openlibrary",
+    "title": "Tender is the Night",
+    "authors": [
+      "F. Scott Fitzgerald"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL468485W",
+      "isbn": []
+    },
+    "publishedYear": 1933
+  },
+  {
+    "id": "openlibrary:/works/OL36371W",
+    "source": "openlibrary",
+    "title": "Le roman du masque de fer",
+    "authors": [
+      "Alexandre Dumas"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL36371W",
+      "isbn": []
+    },
+    "publishedYear": 1600
+  },
+  {
+    "id": "openlibrary:/works/OL77775W",
+    "source": "openlibrary",
+    "title": "The blue castle",
+    "authors": [
+      "Lucy Maud Montgomery"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL77775W",
+      "isbn": []
+    },
+    "publishedYear": 1926
+  },
+  {
+    "id": "google:NkTOAby_c5YC",
+    "source": "google_books",
+    "title": "La romance",
+    "authors": [
+      "Claude-François Fillette-Loraux"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "NkTOAby_c5YC",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "BML:37001100200133"
+        }
+      ]
+    },
+    "publishedYear": "1804"
+  },
+  {
+    "id": "google:SB-YEQAAQBAJ",
+    "source": "google_books",
+    "title": "Le rythme de la romance: La structure de l’histoire dans la romance",
+    "authors": [
+      "Gwen Hayes"
+    ],
+    "description": "Bonjour, moi c'est Gwen. J'écris des histoires d'amour. Je suis aussi une éditrice indépendante. Mes clients écrivent des histoires d'amour. Et devine ce que je lis pour le plaisir ? Des histoires d'amour. Mais je lis aussi beaucoup de manuels techniques à propos de l'écriture, de la structure des histoires, de la préparation d'un plan, de l'écriture sans plan, de la rédaction de dialogues étincelants, de la fabrication d'une bombe avec une meule de foin, un chewing-gum et puis … bon d'accord, ça, c'est du pipeau. (Reste que parfois, pour mon boulot, je dois faire des recherches que certains pourraient considérer comme suspectes). Mais ce que je veux dire c'est que je passe ma vie à lire des livres pour apprendre à faire ce que je fais très beaucoup mieux. Et je suis heureuse de lire ces livres. Mais alors que je sauvais le chat , que je mettais le personnage central de mon livre sur l'itinéraire de l'héroïne ou que j'écrivais des scenarios qui se vendent, je remarquais aussi que, même si les conseils donnés étaient excellents et me donnaient envie de poser ces livres pour me mettre à écrire tout de suite, il manquait quelque chose. Ces livres sur la structure ne correspondaient pas exactement à l'arc narratif de la romance. Dans une romance, il n'y a pas un, mais deux héros. La romance a des règles qui lui sont propres. Pour qu'une histoire soit une romance, elle doit respecter certaines mesures. Mais pas les mêmes, ou pas tout à fait les mêmes, que celles du héros qui sauve le chat en prenant la route pour vendre des scénarios Alors j'ai écrit le livre que j'avais besoin de lire. Celui dont j'avais besoin de parler à mes clients.",
+    "categories": [
+      "Language Arts & Disciplines"
+    ],
+    "identifiers": {
+      "google_id": "SB-YEQAAQBAJ",
+      "industryIdentifiers": []
+    },
+    "publishedYear": "2021-06-24"
+  },
+  {
+    "id": "google:zA7iYAhMGT8C",
+    "source": "google_books",
+    "title": "Arthurian Romance and Gender",
+    "authors": [
+      "Friedrich Wolfzettel"
+    ],
+    "description": "These selected proceedings of the XVIIth International Arthurian Congress (21 to 30 July, 1993 at Bonn) are a major contribution to problems connected with the semiotics of sex, gender and gender roles in Arthurian romance and more generally in medieval narrative. With regard to this particular topic, the proceedings provide a first comprehensive discussion, covering virtually the whole range of medieval Arthurian romance from the Chronicles and the 'classical' period onto verse and prose romances in the XIIIth, XIVth, and XVth centuries, including Malory, and examining the most important works of the mainstreams of French, German, and English literatures. The variety of methods - philological, historical and sociological criticism, anthropological, psychoanalytical, semiotic and linguistic approaches - brought to bear on the texts indicate the growing importance of femininity in the narrative framework as well as a growing awareness of femininity as opposed to the chivalric, masculine set of values. In this perspective, Arthurian romance may be said to be due and revolve around the problem of the sexes or more precisely, genderstudies help to define genrestudies. Moreover, in pointing out - successful or thwarted - tendencies towards a reassessment of femininity, the studies of this volume may contribute to a better understanding of the civilizing process of the medieval world.",
+    "categories": [
+      "Literary Criticism"
+    ],
+    "identifiers": {
+      "google_id": "zA7iYAhMGT8C",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "905183635X"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9789051836356"
+        }
+      ]
+    },
+    "publishedYear": "1995"
+  },
+  {
+    "id": "google:1zArAQAAIAAJ",
+    "source": "google_books",
+    "title": "A Paradise of English Poetry: Romance",
+    "authors": [
+      "Henry Charles Beeching"
+    ],
+    "description": "",
+    "categories": [
+      "English poetry"
+    ],
+    "identifiers": {
+      "google_id": "1zArAQAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCAL:B3288297"
+        }
+      ]
+    },
+    "publishedYear": "1893"
+  },
+  {
+    "id": "google:r8w0OsgBjWQC",
+    "source": "google_books",
+    "title": "The Romance of the English Stage",
+    "authors": [
+      "Percy Hetherington Fitzgerald"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "r8w0OsgBjWQC",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "KBR:KBR0000177156"
+        }
+      ]
+    },
+    "publishedYear": "1874"
+  },
+  {
+    "id": "google:ExEcEQAAQBAJ",
+    "source": "google_books",
+    "title": "Modern Romance February 2025 Books 5-8: His Enemy's Italian Surrender / Royal Fiancée Required / Engaged in Deception / After-Hours Proposal",
+    "authors": [
+      "Sharon Kendrick",
+      "Kali Anthony",
+      "Kim Lawrence",
+      "Trish Morey"
+    ],
+    "description": "A brand new 4-title collection of spicy romances!",
+    "categories": [
+      "Fiction"
+    ],
+    "identifiers": {
+      "google_id": "ExEcEQAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780008944483"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0008944482"
+        }
+      ]
+    },
+    "publishedYear": "2025-02-27"
+  },
+  {
+    "id": "google:YnA5AQAAMAAJ",
+    "source": "google_books",
+    "title": "The Blithedale romance (1876)",
+    "authors": [
+      "Nathaniel Hawthorne"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "YnA5AQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "OSU:32435021402680"
+        }
+      ]
+    },
+    "publishedYear": "1876"
+  },
+  {
+    "id": "google:-QFGAQAAMAAJ",
+    "source": "google_books",
+    "title": "A Romance of Two Worlds",
+    "authors": [
+      "Marie Corelli"
+    ],
+    "description": "\"A Romance of Two Worlds starts with a young heroine, in first person, telling her story of a debilitating illness that includes depression and thoughts of suicide. Her doctor is unable to help her and sends her off on a holiday where she meets a mystical character by the name of Raffello Cellini, a famous Italian artist. Cellini offers her a strange potion which immediately puts her into a tranquil slumber, in which she experiences divine visions. Upon wakening, she craves more. Later, she meets her unnamed guardian angel, who whisks her through infinite solar systems faster than a shooting star while human spirits fly by like gossamer silk. He shares the truth of religion and the secret of human destiny, but still she longs for more. She comes to understand God as pure light and pure love, but it is not enough that she should see and hear these things from the touch of an angel. She wants to master this ability on her own and seeks a oneness with God through a series of meditative disciplines while locked away in a monastery.\"--Wikipedia.",
+    "categories": [
+      "Healing"
+    ],
+    "identifiers": {
+      "google_id": "-QFGAQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UIUC:30112041696771"
+        }
+      ]
+    },
+    "publishedYear": "1896"
+  },
+  {
+    "id": "google:YsTLFE4fFK0C",
+    "source": "google_books",
+    "title": "Sister Martha, Or, A Romance of the Franco-Prussian War",
+    "authors": [
+      "Benjamin Wilson (Curate of Fordham.)"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "YsTLFE4fFK0C",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "NLS:V000703955"
+        }
+      ]
+    },
+    "publishedYear": "1871"
+  },
+  {
+    "id": "google:jXMQAQAAMAAJ",
+    "source": "google_books",
+    "title": "The Romance of Natural History",
+    "authors": [
+      "Philip Henry Gosse"
+    ],
+    "description": "",
+    "categories": [
+      "Natural history"
+    ],
+    "identifiers": {
+      "google_id": "jXMQAQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "CHI:16980228"
+        }
+      ]
+    },
+    "publishedYear": "1870"
+  },
+  {
+    "id": "openlibrary:/works/OL29773770W",
+    "source": "openlibrary",
+    "title": "We're All Puppets 2020",
+    "authors": [
+      "Non Fiction"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL29773770W",
+      "isbn": []
+    },
+    "publishedYear": 2019
+  },
+  {
+    "id": "openlibrary:/works/OL259399W",
+    "source": "openlibrary",
+    "title": "Pocket Gde to Sketching Lb",
+    "authors": [
+      "Non-Fiction"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL259399W",
+      "isbn": []
+    },
+    "publishedYear": 1986
+  },
+  {
+    "id": "openlibrary:/works/OL32347798W",
+    "source": "openlibrary",
+    "title": "Gem Guide to London",
+    "authors": [
+      "Non-Fiction"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL32347798W",
+      "isbn": []
+    },
+    "publishedYear": 1987
+  },
+  {
+    "id": "openlibrary:/works/OL51831W",
+    "source": "openlibrary",
+    "title": "πολιτεία",
+    "authors": [
+      "Πλάτων"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL51831W",
+      "isbn": []
+    },
+    "publishedYear": 1554
+  },
+  {
+    "id": "openlibrary:/works/OL50548W",
+    "source": "openlibrary",
+    "title": "Beloved",
+    "authors": [
+      "Toni Morrison"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL50548W",
+      "isbn": []
+    },
+    "publishedYear": 1987
+  },
+  {
+    "id": "openlibrary:/works/OL617847W",
+    "source": "openlibrary",
+    "title": "El túnel",
+    "authors": [
+      "Ernesto Sabato"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL617847W",
+      "isbn": []
+    },
+    "publishedYear": 1948
+  },
+  {
+    "id": "openlibrary:/works/OL1317211W",
+    "source": "openlibrary",
+    "title": "Meditations",
+    "authors": [
+      "Marcus Aurelius"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL1317211W",
+      "isbn": []
+    },
+    "publishedYear": 1626
+  },
+  {
+    "id": "openlibrary:/works/OL151515W",
+    "source": "openlibrary",
+    "title": "La Poetica",
+    "authors": [
+      "Aristotle"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL151515W",
+      "isbn": []
+    },
+    "publishedYear": 1479
+  },
+  {
+    "id": "openlibrary:/works/OL58402W",
+    "source": "openlibrary",
+    "title": "Guess How Much I Love You",
+    "authors": [
+      "Sam McBratney",
+      "Anita Jeram"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL58402W",
+      "isbn": []
+    },
+    "publishedYear": 1994
+  },
+  {
+    "id": "google:oHxbBgAAQBAJ",
+    "source": "google_books",
+    "title": "Comment écrire non-fiction créative",
+    "authors": [
+      "Donna Kay Kakonge"
+    ],
+    "description": "L'ecriture est une des taches les plus difficiles dans le monde. Ce livre permet de vous guider a travers ce voyage a ameliorer votre ecriture, vous donner des conseils sur l'argent dans votre carriere d'ecrivain, ou vous motiver a commencer une carriere d'ecrivain maintenant! a Lulu.com",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "oHxbBgAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781304821881"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1304821889"
+        }
+      ]
+    },
+    "publishedYear": "2014"
+  },
+  {
+    "id": "google:-CQuwfUtEzcC",
+    "source": "google_books",
+    "title": "Non-Fiction Text Structures for Better Comprehension and Response",
+    "authors": [
+      "Gail Saunders-Smith"
+    ],
+    "description": "Non-fiction text structures organize information into comprehensible patterns. Knowing how to recognize and use these structures to navigate non-fiction text greatly improves students' understanding of what they read. Gail Saunders-Smith simplifies the process by providing teachers of grades 4-8 with: ways to teach each of the five non-fiction text structures: compare/contrast, cause/effect, sequence/procedure, question/answer, and exemplification; engaging whole-class and small-group activities using written, verbal, image, three-dimensional, and technology responses; study skills for locating, recording, and using information; tools for assessing student understanding, and explanations of the text features that organize information within the text structures; and mini-lessons for whole-class, small-group, and independent application of students' text structure knowledge. Examples, photographs, student samples, and graphic organizers support your teaching, and a bibliography of professional books and resources for locating leveled non-fiction texts make this a complete, ready-to-use guide for improving student comprehension.",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "-CQuwfUtEzcC",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781934338384"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1934338389"
+        }
+      ]
+    },
+    "publishedYear": "2009"
+  },
+  {
+    "id": "google:zGTC5ljUCBEC",
+    "source": "google_books",
+    "title": "Guiding Readers Through Non-Fiction",
+    "authors": [
+      "Dave Leochko",
+      "Tom Rossi"
+    ],
+    "description": "Written for grades 4-7 teachers and students, Guiding Readers Through Non-Fiction is an easy-to-use resource. It provides essential background information on the nature of nonfiction and how to use nonfiction in small guided-reading groups. The book is filled with many ready-to-use student handouts, graphic organizers, rubrics, assessment checklists, and planning guidelines. In this resource, you will find: teaching suggestions and strategies to help students engage with various forms of nonfiction necessary information for implementing guided-reading practices in the classroom effective strategies to incorporate successful small-group instruction in the classroom plans and suggestions for structuring the guided-reading lesson",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "zGTC5ljUCBEC",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781553791249"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "155379124X"
+        }
+      ]
+    },
+    "publishedYear": "2007"
+  },
+  {
+    "id": "google:eTQx-2VvovkC",
+    "source": "google_books",
+    "title": "Nonfiction Matters",
+    "authors": [
+      "Stephanie Harvey"
+    ],
+    "description": "A guide to bringing nonfiction into the curriculum in third through eighth-grade classrooms, with strategies and ideas for reading nonfiction, conducting research, and writing reports.",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "eTQx-2VvovkC",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781571100726"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1571100725"
+        }
+      ]
+    },
+    "publishedYear": "1998"
+  },
+  {
+    "id": "google:UCWUzQEACAAJ",
+    "source": "google_books",
+    "title": "Territoires de la non-fiction",
+    "authors": [
+      "Alexandre Gefen"
+    ],
+    "description": "\"Si les siècles qui précédaient avaient vu le couronnement du roman, la littérature du XXIe siècle débute avec le triomphe du document : écritures de voyage, d'investigation, enquêtes judiciaires ou ethnologiques, autobiographies, factographies, factions, rapports et enregistrements littéraires, et autres formes de récits refusant de se dire fictions occupent nos librairies : émerge sous nos yeux une toute nouvelle littérature d'information, de témoignage, d'inventaire ou de documentation. Or ces textes ne se contentent pas de déjouer les critères des classements des bibliothèques et d'intriguer les théoriciens du récit, ils modifient profondément les catégories du littéraire et imposent leur poétique propre. C'est dire si l'heure est à inventorier et à comprendre les territoires de la non-fiction, genre capital de notre contemporain. If the previous centuries had seen the crowning of the novel, the literature of the 21st century begins with the triumph of the document: travel writings, investigative, criminal or ethnological investigations, autobiographies, \"factographies\", factions, literary reports and recordings, and other forms of narrative that refuse to call themselves fictions occupy our bookstores : a whole new literature of information, testimony, inventory or documentation is emerging before our eyes. Yet these texts not only thwart the criteria of library classifications and intrigue narrative theorists, they also profoundly modify the categories of the literary and impose their own poetics. In other words, the time has come to inventory and understand the territories of non-fiction, the capital genre of our time\"--",
+    "categories": [
+      "Literary Criticism"
+    ],
+    "identifiers": {
+      "google_id": "UCWUzQEACAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "900436319X"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9789004363199"
+        }
+      ]
+    },
+    "publishedYear": "2020"
+  },
+  {
+    "id": "google:BclmS4eMv_8C",
+    "source": "google_books",
+    "title": "Access",
+    "authors": [
+      "Wendy Wren"
+    ],
+    "description": "The aim of Nelson Thornes Framework English Access is to raise standards in writing for lower attainers. Access Skills in Fiction and Non-Fiction offers the rigour and support necessary to raise the attainment of students struggling through Years 7 - 10.",
+    "categories": [
+      "Language Arts & Disciplines"
+    ],
+    "identifiers": {
+      "google_id": "BclmS4eMv_8C",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "074879350X"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780748793501"
+        }
+      ]
+    },
+    "publishedYear": "2005"
+  },
+  {
+    "id": "google:OCMeEAAAQBAJ",
+    "source": "google_books",
+    "title": "Comprehension Skills Pupil Book 3 (Treasure House)",
+    "authors": [
+      "Abigail Steel"
+    ],
+    "description": "Treasure House Comprehension Skills Pupil Books are aimed at ages 5-11. They cover all the text types specified in the 2014 National Curriculum, with follow-up activities that build the skills necessary to develop critical thinking.",
+    "categories": [
+      "Juvenile Nonfiction"
+    ],
+    "identifiers": {
+      "google_id": "OCMeEAAAQBAJ",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780008486341"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0008486344"
+        }
+      ]
+    },
+    "publishedYear": "2022-02-11"
+  },
+  {
+    "id": "google:uCNFAQAAMAAJ",
+    "source": "google_books",
+    "title": "... Annual Report of the Carnegie Public Library of Ottawa for the Year ...",
+    "authors": [
+      "Carnegie Public Library of Ottawa"
+    ],
+    "description": "",
+    "categories": [
+      "Public libraries"
+    ],
+    "identifiers": {
+      "google_id": "uCNFAQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UIUC:30112078725246"
+        }
+      ]
+    },
+    "publishedYear": "1907"
+  },
+  {
+    "id": "google:uBpuTjFif5kC",
+    "source": "google_books",
+    "title": "City Documents",
+    "authors": [
+      "Haverhill (Mass.)"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "uBpuTjFif5kC",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UIUC:30112125837176"
+        }
+      ]
+    },
+    "publishedYear": "1923"
+  },
+  {
+    "id": "google:yR8dAQAAMAAJ",
+    "source": "google_books",
+    "title": "The American News Trade Journal",
+    "authors": [],
+    "description": "",
+    "categories": [
+      "Newsdealers"
+    ],
+    "identifiers": {
+      "google_id": "yR8dAQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UIUC:30112106889246"
+        }
+      ]
+    },
+    "publishedYear": "1924"
+  },
+  {
+    "id": "openlibrary:/works/OL1455042W",
+    "source": "openlibrary",
+    "title": "Heidi",
+    "authors": [
+      "Johanna Spyri"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL1455042W",
+      "isbn": []
+    },
+    "publishedYear": 1885
+  },
+  {
+    "id": "openlibrary:/works/OL20867W",
+    "source": "openlibrary",
+    "title": "Middlemarch",
+    "authors": [
+      "George Eliot"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL20867W",
+      "isbn": []
+    },
+    "publishedYear": 1871
+  },
+  {
+    "id": "openlibrary:/works/OL2775807W",
+    "source": "openlibrary",
+    "title": "Pollyanna",
+    "authors": [
+      "Eleanor Hodgman Porter",
+      "Porter",
+      "Neil Reed",
+      "Lee Giles"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL2775807W",
+      "isbn": []
+    },
+    "publishedYear": 1912
+  },
+  {
+    "id": "openlibrary:/works/OL39316W",
+    "source": "openlibrary",
+    "title": "The Waves",
+    "authors": [
+      "Virginia Woolf"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL39316W",
+      "isbn": []
+    },
+    "publishedYear": 1931
+  },
+  {
+    "id": "openlibrary:/works/OL69612W",
+    "source": "openlibrary",
+    "title": "The Secret Garden",
+    "authors": [
+      "Frances Hodgson Burnett"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL69612W",
+      "isbn": []
+    },
+    "publishedYear": 1911
+  },
+  {
+    "id": "openlibrary:/works/OL1095403W",
+    "source": "openlibrary",
+    "title": "Villette, a novel",
+    "authors": [
+      "Charlotte Brontë"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL1095403W",
+      "isbn": []
+    },
+    "publishedYear": 1853
+  },
+  {
+    "id": "openlibrary:/works/OL24034W",
+    "source": "openlibrary",
+    "title": "Treasure Island",
+    "authors": [
+      "Robert Louis Stevenson"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL24034W",
+      "isbn": []
+    },
+    "publishedYear": 1880
+  },
+  {
+    "id": "openlibrary:/works/OL74504W",
+    "source": "openlibrary",
+    "title": "White Fang",
+    "authors": [
+      "Jack London"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL74504W",
+      "isbn": []
+    },
+    "publishedYear": 1905
+  },
+  {
+    "id": "openlibrary:/works/OL8193387W",
+    "source": "openlibrary",
+    "title": "Hard Times",
+    "authors": [
+      "Charles Dickens"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "openlibrary_key": "/works/OL8193387W",
+      "isbn": []
+    },
+    "publishedYear": 1854
+  },
+  {
+    "id": "google:SE8FAAAAQAAJ",
+    "source": "google_books",
+    "title": "THE EDUCATIONAL TIMES",
+    "authors": [
+      "College of Preceptors"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "SE8FAAAAQAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "OXFORD:555032488"
+        }
+      ]
+    },
+    "publishedYear": "1866"
+  },
+  {
+    "id": "google:7YexAAAAIAAJ",
+    "source": "google_books",
+    "title": "The Classics, Their History and Present Status in Education",
+    "authors": [
+      "Felix Marie Kirsch"
+    ],
+    "description": "",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "7YexAAAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UCAL:B4365184"
+        }
+      ]
+    },
+    "publishedYear": "1968"
+  },
+  {
+    "id": "google:bQoCAAAAYAAJ",
+    "source": "google_books",
+    "title": "The American Educational Monthly",
+    "authors": [],
+    "description": "",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "bQoCAAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "HARVARD:32044096992250"
+        }
+      ]
+    },
+    "publishedYear": "1873"
+  },
+  {
+    "id": "google:rBbSEtUiZPgC",
+    "source": "google_books",
+    "title": "The Harvard Classics: Essays, English and American",
+    "authors": [
+      "Charles William Eliot"
+    ],
+    "description": "V. 49--Epic and saga.",
+    "categories": [
+      "Literature"
+    ],
+    "identifiers": {
+      "google_id": "rBbSEtUiZPgC",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UFL:31262043676112"
+        }
+      ]
+    },
+    "publishedYear": "1910"
+  },
+  {
+    "id": "google:TY9AAQAAMAAJ",
+    "source": "google_books",
+    "title": "Educational Times",
+    "authors": [],
+    "description": "",
+    "categories": [
+      "Education"
+    ],
+    "identifiers": {
+      "google_id": "TY9AAQAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "CORNELL:31924071543254"
+        }
+      ]
+    },
+    "publishedYear": "1893"
+  },
+  {
+    "id": "google:2qs5AQAAIAAJ",
+    "source": "google_books",
+    "title": "Song Classics for High Voice [Vocal Scores with Piano Acc.]",
+    "authors": [],
+    "description": "",
+    "categories": [
+      "Songs"
+    ],
+    "identifiers": {
+      "google_id": "2qs5AQAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "STANFORD:36105042112396"
+        }
+      ]
+    },
+    "publishedYear": "1885"
+  },
+  {
+    "id": "google:YcnOAAAAMAAJ",
+    "source": "google_books",
+    "title": "Calendar - McGill University",
+    "authors": [
+      "McGill University"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "YcnOAAAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UOM:39015075885924"
+        }
+      ]
+    },
+    "publishedYear": "1873"
+  },
+  {
+    "id": "google:vmgZAAAAYAAJ",
+    "source": "google_books",
+    "title": "Annual Calendar of McGill College and University",
+    "authors": [
+      "McGill University"
+    ],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "vmgZAAAAYAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "PRNC:32101065980532"
+        }
+      ]
+    },
+    "publishedYear": "1877"
+  },
+  {
+    "id": "google:jcbmAAAAMAAJ",
+    "source": "google_books",
+    "title": "The Cambridge Review",
+    "authors": [],
+    "description": "Vols. 1-26 include a supplement: The University pulpit, vols. [1]-26, no. 1-661, which has separate pagination but is indexed in the main vol.",
+    "categories": [
+      "College student newspapers and periodicals"
+    ],
+    "identifiers": {
+      "google_id": "jcbmAAAAMAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UOM:39015013790111"
+        }
+      ]
+    },
+    "publishedYear": "1885"
+  },
+  {
+    "id": "google:HQ8SAAAAIAAJ",
+    "source": "google_books",
+    "title": "Combined List of Books for Elementary and Junior High School Libraries",
+    "authors": [],
+    "description": "",
+    "categories": [],
+    "identifiers": {
+      "google_id": "HQ8SAAAAIAAJ",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "NYPL:33433069136038"
+        }
+      ]
+    },
+    "publishedYear": "1896"
+  }
+]
