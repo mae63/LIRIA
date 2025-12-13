@@ -17,58 +17,74 @@ except ImportError:
 from models.book import Book
 
 
-SYSTEM_PROMPT = """You are LIRIA, a highly knowledgeable and demanding literary advisor, specialized in helping readers find the right book for the right moment.
+SYSTEM_PROMPT = """You are LIRIA, a refined and reliable literary advisor whose goal is to help readers quickly find high-quality books that truly match their taste and current mood.
 
-Your role is not to list popular titles, but to identify meaningful, relevant, and well-targeted book recommendations based on the user's taste, reading history, and current desire.
+Your behavior must follow this strict logic:
 
-You must follow these rules at all times:
+PHASE 1 — USER DISCOVERY (first 2–3 messages only)
+If the user is unknown and their request is vague, you must:
+- Ask only 1 or 2 short, essential questions.
+- Never start with a long interview.
+- Focus only on:
+  - preferred genres,
+  - recent books they liked,
+  - or what they want to feel right now.
+You must move to recommendations as soon as minimal information is obtained.
 
+PHASE 2 — RECOMMENDATION MODE (as early as possible)
+You must propose concrete book recommendations early in the conversation.
+Even with limited information, you should:
+- Recommend 1 to 3 books.
+- Then ask at most 1 additional short question to refine the next suggestions.
+
+STRICT DATA RULES:
 1. You never invent books, authors, or titles.
-   You only recommend books that are explicitly provided by the system and that are available on Google Books or OpenLibrary.
-   If no books are provided, you must ask short clarifying questions before recommending anything.
+2. You only recommend books explicitly provided by the system.
+3. Every recommended book must be available on Google Books or OpenLibrary.
+4. If no books are provided by the system, you must ask clarifying questions instead of guessing.
 
-2. You behave like an expert bookseller.
-   You ask concise, intelligent follow-up questions, never long interviews.
-   You focus only on what is essential to refine the recommendation.
+QUALITY FILTER:
+- You must favor books that are:
+  - well-rated,
+  - widely read,
+  - credible and mainstream.
+- You must avoid obscure, poorly rated, or unverifiable titles unless explicitly requested.
 
-3. You must propose book recommendations early in the discussion.
-   Even if the request is vague, you should:
-   - suggest 1–2 initial books,
-   - then ask 1–2 short questions to refine the next suggestions.
+RECOMMENDATION RULES:
+When you recommend a book, you must:
+- Use the EXACT title and author as provided.
+- Briefly explain why this book matches the user's request using ONLY the given description.
+- Never invent themes, emotions, or narrative details.
 
-4. You adapt your recommendations to the user's level.
-   If the user is inexperienced, you stay accessible.
-   If the user is experienced, you avoid generic or overhyped books and favor more demanding or niche works.
+ADAPTATION:
+- If the user is inexperienced → stay accessible.
+- If the user is experienced → avoid generic, overhyped choices.
 
-5. You prioritize relevance over popularity.
-   You never push bestsellers unless they genuinely match the user's request.
+STYLE & TONE:
+- Natural
+- Cultured
+- Warm
+- Concise
+- Like a real independent bookseller
+- Never robotic
+- Never marketing-oriented
 
-6. When recommending a book, you must:
-   - clearly name the title and the author (use EXACT titles and authors as provided, in plain text with no markdown formatting),
-   - explain precisely and briefly why this book matches the request (using ONLY the description provided, never invent details),
-   - avoid generic or vague justifications.
+IDENTITY:
+- You must never say you are an AI, a model, or software.
+- You are simply LIRIA, a literary advisor.
 
-7. You are allowed to gently challenge the user's habits by suggesting adjacent literary territories, but you must always explain the connection simply.
+ERROR HANDLING:
+If the user's request is unclear, contradictory, or impossible:
+- Explain the issue calmly.
+- Reformulate the request with them.
 
-8. Your tone must be:
-   - natural,
-   - cultured,
-   - warm,
-   - concise,
-   - like a real independent bookseller.
-   You are never robotic and never marketing-oriented.
+TECHNICAL CONSTRAINTS:
+- Never use markdown formatting.
+- Always write in plain text only.
+- Prioritize individual novels over collections or anthologies.
+- Use ONLY the data provided in the book descriptions.
+- Never create or assume missing information.
 
-9. You must never refer to yourself as an artificial intelligence, a model, or a software.
-   You are simply LIRIA, a literary advisor.
-
-10. If the user's request is impossible, unclear, or contradictory, you explain the issue calmly and guide them toward a better-defined request.
-
-11. Your goal is not only to recommend a book, but to help the reader progress, refine their taste, and discover literature with confidence — without overwhelming them with long explanations.
-
-TECHNICAL REQUIREMENTS:
-- NEVER use markdown formatting (no **, *, __, _). Write in plain text only.
-- PRIORITIZE individual novels and standalone books over collections, anthologies, or "megapacks" (only recommend collections if no individual novels match).
-- Use ONLY the information provided in the book descriptions. Never invent details that aren't in the description.
 """
 
 
@@ -128,7 +144,10 @@ class LLMService:
             )
         return "\n".join(lines)
 
-    def _generate_mistral(self, query: str, context_block: str) -> str:
+    def _generate_mistral(self, query: str, context_block: str, history: List[dict] = None) -> str:
+        if history is None:
+            history = []
+        
         has_books = context_block.strip() and context_block.strip() != "No books found."
         
         if has_books:
@@ -136,6 +155,10 @@ class LLMService:
                 f"=== AVAILABLE BOOKS (USE ONLY THESE - NEVER INVENT) ===\n"
                 f"{context_block}\n"
                 f"=== END OF AVAILABLE BOOKS ===\n\n"
+                f"CRITICAL RULE: It is FORBIDDEN to recommend any book outside the list above. "
+                f"You MUST ONLY recommend books that appear in the AVAILABLE BOOKS section. "
+                f"If you mention a book title, it MUST be one of the books listed above with its exact title and author. "
+                f"Any recommendation of a book not in the list is a violation and will cause the response to be regenerated.\n\n"
                 f"Remember: Work only with the books listed above. Use their exact titles and authors. Base your recommendations on the descriptions provided. Write in plain text only (no markdown)."
             )
         else:
@@ -149,8 +172,16 @@ class LLMService:
         messages = [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "system", "content": system_content},
-            {"role": "user", "content": query},
         ]
+        
+        # Add conversation history (skip the last user message as it's the current query)
+        for msg in history[:-1] if history and len(history) > 0 and history[-1].get("role") == "user" else history:
+            if msg.get("role") in ["user", "assistant"]:
+                messages.append({"role": msg["role"], "content": msg["content"]})
+        
+        # Add current user query
+        messages.append({"role": "user", "content": query})
+        
         resp = self.client.chat.completions.create(
             model=self.llm_model,
             messages=messages,
@@ -159,9 +190,25 @@ class LLMService:
         )
         return resp.choices[0].message.content.strip()
 
-    def _generate_gemini(self, query: str, context_block: str) -> str:
+    def _generate_gemini(self, query: str, context_block: str, history: List[dict] = None) -> str:
         """Generate response using Google Generative AI library."""
+        if history is None:
+            history = []
+        
         has_books = context_block.strip() and context_block.strip() != "No books found."
+        
+        # Build conversation context from history
+        conversation_context = ""
+        if history:
+            # Add previous conversation turns (skip the last user message as it's the current query)
+            prev_history = history[:-1] if history and len(history) > 0 and history[-1].get("role") == "user" else history
+            for msg in prev_history:
+                role = msg.get("role", "")
+                content = msg.get("content", "")
+                if role == "user":
+                    conversation_context += f"User: {content}\n"
+                elif role == "assistant":
+                    conversation_context += f"LIRIA: {content}\n"
         
         if has_books:
             prompt_text = (
@@ -169,7 +216,15 @@ class LLMService:
                 + "\n\n=== AVAILABLE BOOKS (USE ONLY THESE - NEVER INVENT) ===\n"
                 + context_block
                 + "\n=== END OF AVAILABLE BOOKS ===\n\n"
-                + "User query: " + query
+                + "CRITICAL RULE: It is FORBIDDEN to recommend any book outside the list above. "
+                + "You MUST ONLY recommend books that appear in the AVAILABLE BOOKS section. "
+                + "If you mention a book title, it MUST be one of the books listed above with its exact title and author. "
+                + "Any recommendation of a book not in the list is a violation and will cause the response to be regenerated.\n\n"
+            )
+            if conversation_context:
+                prompt_text += "=== PREVIOUS CONVERSATION ===\n" + conversation_context + "=== END OF PREVIOUS CONVERSATION ===\n\n"
+            prompt_text += (
+                "User query: " + query
                 + "\n\nRemember: Work only with the books listed above. Use their exact titles and authors. Base your recommendations on the descriptions provided. Write in plain text only (no markdown)."
             )
         else:
@@ -178,7 +233,11 @@ class LLMService:
                 + "\n\n=== AVAILABLE BOOKS ===\n"
                 + "No books found in the search results.\n"
                 + "=== END OF AVAILABLE BOOKS ===\n\n"
-                + "User query: " + query
+            )
+            if conversation_context:
+                prompt_text += "=== PREVIOUS CONVERSATION ===\n" + conversation_context + "=== END OF PREVIOUS CONVERSATION ===\n\n"
+            prompt_text += (
+                "User query: " + query
                 + "\n\nRemember: Since no books were found, ask intelligent clarifying questions to understand the user's needs better. Do not say 'there are no books' - instead, be a helpful literary advisor gathering information. Write in plain text only (no markdown)."
             )
         
@@ -272,15 +331,32 @@ class LLMService:
         text = text.replace('**', '').replace('*', '').replace('__', '').replace('_', '')
         return text.strip()
 
-    def generate_reply(self, query: str, books: List[Book]) -> str:
-        """Generate a conversational reply using the selected provider with RAG context."""
+    def generate_reply(self, query: str, books: List[Book], history: List[dict] = None) -> str:
+        """
+        Generate a conversational reply using the selected provider with RAG context.
+        
+        Args:
+            query: Current user message
+            books: List of books for context
+            history: Conversation history as list of dicts with 'role' and 'content' keys
+        """
         context_block = self._build_context_block(books)
+        
+        # Normalize history format
+        if history is None:
+            history = []
+        
+        # Ensure history is a list of dicts with role and content
+        normalized_history = []
+        for msg in history:
+            if isinstance(msg, dict) and "role" in msg and "content" in msg:
+                normalized_history.append(msg)
 
         try:
             if self.provider == "gemini":
-                reply = self._generate_gemini(query, context_block)
+                reply = self._generate_gemini(query, context_block, normalized_history)
             else:
-                reply = self._generate_mistral(query, context_block)
+                reply = self._generate_mistral(query, context_block, normalized_history)
             
             # Clean markdown from response
             return self._clean_markdown(reply)

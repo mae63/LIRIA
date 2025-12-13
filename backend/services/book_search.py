@@ -21,7 +21,7 @@ async def fetch_google_books(query: str, max_results: int = 20, api_key: str | N
             params = {
                 "q": query,
                 "maxResults": min(max_results, 40),  # Google API limit
-                "fields": "items(id,volumeInfo(title,authors,description,categories,imageLinks))"
+                "fields": "items(id,volumeInfo(title,authors,description,categories,imageLinks,industryIdentifiers,publisher,publishedDate,previewLink))"
             }
             if api_key:
                 params["key"] = api_key
@@ -80,6 +80,20 @@ def normalize_google_book(item: Dict) -> Book:
         None
     )
     
+    # Extract ISBN (prefer ISBN_13, fallback to ISBN_10)
+    isbn = None
+    industry_identifiers = volume_info.get("industryIdentifiers", [])
+    for identifier in industry_identifiers:
+        if identifier.get("type") == "ISBN_13":
+            isbn = identifier.get("identifier", "").strip()
+            break
+        elif identifier.get("type") == "ISBN_10" and not isbn:
+            isbn = identifier.get("identifier", "").strip()
+    
+    publisher = volume_info.get("publisher", "").strip() or None
+    published_date = volume_info.get("publishedDate", "").strip() or None
+    preview_link = volume_info.get("previewLink", "").strip() or None
+    
     return Book(
         id=f"google:{item.get('id', '')}",
         title=title,
@@ -87,7 +101,11 @@ def normalize_google_book(item: Dict) -> Book:
         description=description,
         categories=categories,
         thumbnail=thumbnail,
-        source="Google Books"
+        source="Google Books",
+        isbn=isbn,
+        publisher=publisher,
+        published_date=published_date,
+        preview_link=preview_link
     )
 
 
@@ -193,6 +211,49 @@ def deduplicate_books(books: List[Book]) -> List[Book]:
             unique_books.append(book)
     
     return unique_books
+
+
+def filter_books_strict(books: List[Book], min_fields: int = 3, max_results: int = 8) -> List[Book]:
+    """
+    Strictly filter books by keeping only those with at least min_fields (default 3) 
+    of the following fields present and non-empty: ISBN, publisher, categories, publishedDate, previewLink.
+    Returns the best-structured books (up to max_results).
+    """
+    required_fields = ["isbn", "publisher", "categories", "published_date", "preview_link"]
+    
+    filtered = []
+    for book in books:
+        field_count = 0
+        
+        # Check ISBN
+        if book.isbn and book.isbn.strip():
+            field_count += 1
+        
+        # Check publisher
+        if book.publisher and book.publisher.strip():
+            field_count += 1
+        
+        # Check categories (must have at least one)
+        if book.categories and len(book.categories) > 0:
+            field_count += 1
+        
+        # Check published_date
+        if book.published_date and book.published_date.strip():
+            field_count += 1
+        
+        # Check preview_link
+        if book.preview_link and book.preview_link.strip():
+            field_count += 1
+        
+        # Keep only books with at least min_fields
+        if field_count >= min_fields:
+            filtered.append((book, field_count))
+    
+    # Sort by number of fields (best-structured first), then by description length
+    filtered.sort(key=lambda x: (x[1], len(x[0].description or "")), reverse=True)
+    
+    # Return top max_results books
+    return [book for book, _ in filtered[:max_results]]
 
 
 async def search_books_from_apis(query: str, limit: int = 20) -> List[Book]:
