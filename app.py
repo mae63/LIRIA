@@ -466,9 +466,9 @@ st.markdown("""
     .auth-container {
         display: flex;
         justify-content: center;
-        align-items: center;
-        min-height: calc(100vh - 100px);
-        padding: 20px;
+        align-items: flex-start;
+        padding: 0 20px;
+        margin-top: 0;
     }
     
     .auth-card {
@@ -902,6 +902,23 @@ def remove_from_wishlist(entry_id: int):
         save_wishlist(st.session_state.wishlist)
 
 
+def generate_amazon_url(title: str, author: str = "") -> str:
+    """Generate Amazon search URL for a book"""
+    from urllib.parse import quote_plus
+    
+    # Build search query: title + author if available
+    if author:
+        search_query = f"{title} {author}"
+    else:
+        search_query = title
+    
+    # URL encode the search query
+    encoded_query = quote_plus(search_query)
+    
+    # Amazon search URL
+    return f"https://www.amazon.com/s?k={encoded_query}&i=stripbooks"
+
+
 def search_books_direct(query: str, limit: int = 20) -> List[Dict]:
     """Direct search using Google Books and OpenLibrary"""
     results = []
@@ -984,76 +1001,6 @@ if not st.session_state.user:
 # Sidebar navigation (only visible for authenticated users)
 st.sidebar.markdown("## LIRIA")
 
-# User menu in top right corner
-def render_user_menu():
-    """Render user menu in top right corner"""
-    user_email = st.session_state.user.get('email', 'User')
-    user_initials = user_email[0].upper() if user_email else 'U'
-    
-    # Initialize dropdown state
-    if "user_menu_open" not in st.session_state:
-        st.session_state.user_menu_open = False
-    
-    # Create fixed position container for menu
-    st.markdown(f"""
-    <div class="user-menu-container">
-        <div class="user-avatar" id="user-avatar-btn">{user_initials}</div>
-    </div>
-    <script>
-        document.getElementById('user-avatar-btn').addEventListener('click', function() {{
-            // Toggle menu visibility
-            var menu = document.getElementById('user-dropdown-menu');
-            if (menu) {{
-                menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-            }}
-        }});
-        
-        // Close menu when clicking outside
-        document.addEventListener('click', function(event) {{
-            var avatar = document.getElementById('user-avatar-btn');
-            var menu = document.getElementById('user-dropdown-menu');
-            if (menu && avatar && !avatar.contains(event.target) && !menu.contains(event.target)) {{
-                menu.style.display = 'none';
-            }}
-        }});
-    </script>
-    """, unsafe_allow_html=True)
-    
-    # Dropdown menu
-    st.markdown(f"""
-    <div class="user-menu-container">
-        <div class="user-dropdown" id="user-dropdown-menu" style="display: none;">
-            <div class="user-dropdown-email">{user_email}</div>
-            <div class="user-dropdown-signout" id="user-signout-link">Sign Out</div>
-        </div>
-    </div>
-    <script>
-        document.getElementById('user-signout-link').addEventListener('click', function() {{
-            // Trigger Streamlit button click
-            var btn = document.querySelector('button[key="user-signout-btn"]');
-            if (btn) btn.click();
-        }});
-    </script>
-    """, unsafe_allow_html=True)
-    
-    # Hidden button for sign out
-    if st.button("Sign Out", key="user-signout-btn"):
-        access_token = get_access_token()
-        sign_out(access_token)
-        st.session_state.user = None
-        st.session_state.library = []
-        st.session_state.wishlist = []
-        st.session_state.chat_history = [
-            {"role": "assistant", "content": "Hi, I'm LIRIA. Tell me what kind of book you're looking for."}
-        ]
-        st.session_state.conversation_id = None
-        st.session_state.data_loaded = False
-        st.session_state.migration_done = False
-        st.session_state.user_menu_open = False
-        st.rerun()
-
-# Render user menu
-render_user_menu()
 
 # Load user data if authenticated
 if st.session_state.user and not st.session_state.data_loaded:
@@ -1466,11 +1413,27 @@ elif page == "Search":
                         add_btn = st.button("+ Add", key=f"search_add_{book.get('id')}", use_container_width=True)
                         st.markdown('</div>', unsafe_allow_html=True)
                         if add_btn:
-                            if add_book_to_library(book):
+                            # Convert search book format to library format
+                            library_book = {
+                                "title": book.get("title", ""),
+                                "authors": book.get("authors", []) if isinstance(book.get("authors"), list) else [],
+                                "description": book.get("description", "") or "",
+                                "categories": book.get("categories", []) if isinstance(book.get("categories"), list) else [],
+                                "source": book.get("source", "") or "",
+                                "rawId": book.get("rawId", "") or "",
+                                "coverUrl": book.get("coverUrl", "") or "",
+                                "rating": 0,
+                                "comment": "",
+                                "apiRating": book.get("apiRating"),
+                                "apiRatingsCount": book.get("apiRatingsCount", 0) or 0,
+                            }
+                            if add_book_to_library(library_book):
                                 # Reload library to update the UI immediately
                                 access_token = get_access_token()
                                 st.session_state.library = get_library(access_token)
                                 st.rerun()
+                            else:
+                                st.info("Already in library")
                     with btn_col2:
                         if not is_in_wishlist:
                             st.markdown('<div style="display: flex; align-items: center; height: 100%;">', unsafe_allow_html=True)
@@ -1589,9 +1552,6 @@ elif page == "My Library":
                                 if isinstance(categories, list):
                                     st.markdown(f'<div class="book-categories">{", ".join(categories[:4])}</div>', unsafe_allow_html=True)
                             
-                            if book.get("comment"):
-                                st.markdown(f'<div style="font-size: 12px; color: #9ca3af; margin-top: 4px;">"{book.get("comment")}"</div>', unsafe_allow_html=True)
-                            
                             # Comment input
                             st.markdown('<div style="font-size: 12px; color: #e5e7eb; margin: 8px 0 4px 0;">Comment:</div>', unsafe_allow_html=True)
                             new_comment = st.text_input(
@@ -1638,6 +1598,8 @@ elif page == "My Library":
                 
                 for col_idx, book in enumerate(row_books):
                     idx = row_start + col_idx
+                    entry_id = book.get("id")
+                    
                     with cols[col_idx]:
                         st.markdown('<div class="dark-card" style="margin-bottom: 24px;">', unsafe_allow_html=True)
                         
@@ -1662,7 +1624,7 @@ elif page == "My Library":
                                 if isinstance(categories, list):
                                     st.markdown(f'<div class="book-categories">{", ".join(categories[:4])}</div>', unsafe_allow_html=True)
                             
-                            # Action buttons
+                            # Action buttons: Add to Library, Buy on Amazon, and Remove
                             action_col1, action_col2, action_col3 = st.columns(3, gap="small")
                             with action_col1:
                                 if st.button("Add to Library", key=f"wishlist_to_lib_{idx}", use_container_width=True):
@@ -1681,7 +1643,6 @@ elif page == "My Library":
                                         "apiRatingsCount": book.get("api_ratings_count", 0),
                                     }
                                     if add_book_to_library(library_book):
-                                        entry_id = book.get("id")  # This is the database entry ID
                                         if entry_id:
                                             remove_from_wishlist(entry_id)
                                         # Reload library to show the new book
@@ -1692,15 +1653,16 @@ elif page == "My Library":
                                     else:
                                         st.info("Already in library")
                             with action_col2:
-                                preview_link = book.get("preview_link", "")
-                                if not preview_link:
-                                    preview_link = f"https://www.google.com/search?q={book.get('title', '').replace(' ', '+')}+{book.get('author', '').replace(' ', '+')}"
-                                st.link_button("View", preview_link, use_container_width=True)
+                                # Generate Amazon URL
+                                amazon_url = generate_amazon_url(book.get("title", ""), book.get("author", ""))
+                                st.link_button("Buy on Amazon", amazon_url, use_container_width=True)
                             with action_col3:
                                 if st.button("Remove", key=f"wishlist_remove_{idx}", use_container_width=True):
-                                    entry_id = book.get("id")  # This is the database entry ID
                                     if entry_id:
                                         remove_from_wishlist(entry_id)
+                                    # Reload wishlist to update UI
+                                    access_token = get_access_token()
+                                    st.session_state.wishlist = get_wishlist(access_token)
                                     st.rerun()
                         
                         st.markdown('</div>', unsafe_allow_html=True)
