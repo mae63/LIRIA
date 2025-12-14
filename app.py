@@ -302,7 +302,7 @@ st.markdown("""
         border: none !important;
         color: #94a3b8 !important;
         font-size: 20px !important;
-        padding: 4px 6px !important;
+        padding: 4px 2px !important;
         min-height: auto !important;
         box-shadow: none !important;
         margin: 0 !important;
@@ -310,6 +310,12 @@ st.markdown("""
     
     button[kind="secondary"]:hover {
         color: #cbd5e1 !important;
+    }
+    
+    /* Rating stars - rapprochées */
+    [data-testid="column"]:has(button[kind="secondary"]) {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
     }
     
     /* Empty state */
@@ -455,6 +461,175 @@ st.markdown("""
         font-size: 14px;
         padding: 24px;
     }
+    
+    /* Auth page styles - compacted to fit without scroll */
+    .auth-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 100px);
+        padding: 20px;
+    }
+    
+    .auth-card {
+        background: rgba(15, 23, 42, 0.95);
+        border-radius: 20px;
+        border: 1px solid rgba(148, 163, 184, 0.15);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        padding: 24px 32px 20px 32px;
+        max-width: 400px;
+        width: 100%;
+        backdrop-filter: blur(20px);
+    }
+    
+    .auth-title {
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 4px;
+        letter-spacing: -0.02em;
+    }
+    
+    .auth-subtitle {
+        font-size: 13px;
+        color: #94a3b8;
+        text-align: center;
+        margin-bottom: 16px;
+        line-height: 1.4;
+    }
+    
+    /* Style tabs in auth page - compacted */
+    .auth-card .stTabs [data-baseweb="tab-list"] {
+        gap: 4px;
+        background: transparent;
+        margin-bottom: 12px;
+    }
+    
+    .auth-card .stTabs [data-baseweb="tab"] {
+        color: #94a3b8;
+        font-size: 13px;
+        padding: 6px 14px;
+        border-radius: 8px;
+        background: transparent;
+    }
+    
+    .auth-card .stTabs [aria-selected="true"] {
+        color: #ffffff;
+        background: rgba(30, 64, 175, 0.2);
+    }
+    
+    /* Style form inputs in auth page - compacted */
+    .auth-card .stTextInput > div > div > input {
+        background-color: rgba(15, 23, 42, 0.8);
+        color: #e2e8f0;
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 12px;
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    
+    .auth-card .stTextInput > div > div > input:focus {
+        border-color: rgba(99, 102, 241, 0.5);
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        outline: none;
+        background-color: rgba(15, 23, 42, 0.9);
+    }
+    
+    .auth-card .stTextInput {
+        margin-bottom: 8px;
+    }
+    
+    .auth-card .stForm {
+        margin-top: 0;
+    }
+    
+    .auth-card .stButton {
+        margin-top: 6px;
+    }
+    
+    .auth-card .stButton > button {
+        padding: 8px 24px;
+        font-size: 14px;
+        min-height: 36px;
+    }
+    
+    /* User menu in top right */
+    .user-menu-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    
+    .user-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+        border: 2px solid rgba(148, 163, 184, 0.2);
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .user-avatar:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    .user-dropdown {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background: rgba(15, 23, 42, 0.98);
+        border-radius: 12px;
+        border: 1px solid rgba(148, 163, 184, 0.15);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        padding: 8px;
+        min-width: 200px;
+        backdrop-filter: blur(20px);
+    }
+    
+    .user-dropdown-item {
+        padding: 12px 16px;
+        color: #e2e8f0;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+    
+    .user-dropdown-item:hover {
+        background: rgba(148, 163, 184, 0.1);
+    }
+    
+    .user-dropdown-email {
+        padding: 12px 16px;
+        color: #94a3b8;
+        font-size: 13px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        margin-bottom: 4px;
+    }
+    
+    .user-dropdown-signout {
+        padding: 12px 16px;
+        color: #ef4444;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+    
+    .user-dropdown-signout:hover {
+        background: rgba(239, 68, 68, 0.1);
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -492,6 +667,86 @@ def get_access_token() -> Optional[str]:
     if st.session_state.user:
         return st.session_state.user.get("access_token")
     return None
+
+
+
+
+def render_auth_page():
+    """Render the dedicated authentication page"""
+    # Hide header and footer, center content
+    st.markdown("""
+    <style>
+    .main .block-container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        max-width: 100% !important;
+    }
+    header {
+        visibility: hidden;
+        height: 0;
+    }
+    footer {
+        visibility: hidden;
+        height: 0;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("""
+    <div class="auth-container">
+        <div class="auth-card">
+            <h1 class="auth-title">Welcome to LIRIA</h1>
+            <p class="auth-subtitle">Sign in to access your personal literary advisor.</p>
+    """, unsafe_allow_html=True)
+    
+    # Tabs for Sign In / Sign Up
+    auth_tab1, auth_tab2 = st.tabs(["Sign In", "Sign Up"])
+    
+    with auth_tab1:
+        with st.form(key="signin_form", clear_on_submit=False):
+            signin_email = st.text_input("Email", key="signin_email")
+            signin_password = st.text_input("Password", type="password", key="signin_password")
+            signin_submit = st.form_submit_button("Sign In", type="primary", use_container_width=True)
+            
+            if signin_submit:
+                result = sign_in(signin_email, signin_password)
+                if result.get("success"):
+                    st.session_state.user = {
+                        "user_id": result.get("user_id"),
+                        "email": result.get("email"),
+                        "access_token": result.get("access_token"),
+                        "refresh_token": result.get("refresh_token"),
+                    }
+                    st.session_state.data_loaded = False
+                    st.rerun()
+                else:
+                    st.error(result.get("error", "Sign in failed"))
+    
+    with auth_tab2:
+        with st.form(key="signup_form", clear_on_submit=False):
+            signup_email = st.text_input("Email", key="signup_email")
+            signup_password = st.text_input("Password", type="password", key="signup_password")
+            signup_submit = st.form_submit_button("Create Account", type="primary", use_container_width=True)
+            
+            if signup_submit:
+                result = sign_up(signup_email, signup_password)
+                if result.get("success"):
+                    st.session_state.user = {
+                        "user_id": result.get("user_id"),
+                        "email": result.get("email"),
+                        "access_token": result.get("access_token"),
+                        "refresh_token": result.get("refresh_token"),
+                    }
+                    st.session_state.data_loaded = False
+                    st.success("Account created! You are now signed in.")
+                    st.rerun()
+                else:
+                    st.error(result.get("error", "Sign up failed"))
+    
+    st.markdown("""
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 def load_library():
@@ -710,13 +965,79 @@ def search_books_direct(query: str, limit: int = 20) -> List[Dict]:
     return unique_results[:limit]
 
 
-# Sidebar navigation
+# Authentication guard: Check if user is authenticated
+if not st.session_state.user:
+    # Hide sidebar for unauthenticated users
+    st.markdown("""
+    <style>
+    [data-testid="stSidebar"] {
+        display: none !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Show only the auth page
+    render_auth_page()
+    st.stop()  # Stop execution here, don't render the rest of the app
+
+# User is authenticated - show sidebar and main app
+# Sidebar navigation (only visible for authenticated users)
 st.sidebar.markdown("## LIRIA")
 
-# Authentication section
-if st.session_state.user:
-    st.sidebar.markdown(f"**Logged in as:** {st.session_state.user.get('email', 'User')}")
-    if st.sidebar.button("Sign Out"):
+# User menu in top right corner
+def render_user_menu():
+    """Render user menu in top right corner"""
+    user_email = st.session_state.user.get('email', 'User')
+    user_initials = user_email[0].upper() if user_email else 'U'
+    
+    # Initialize dropdown state
+    if "user_menu_open" not in st.session_state:
+        st.session_state.user_menu_open = False
+    
+    # Create fixed position container for menu
+    st.markdown(f"""
+    <div class="user-menu-container">
+        <div class="user-avatar" id="user-avatar-btn">{user_initials}</div>
+    </div>
+    <script>
+        document.getElementById('user-avatar-btn').addEventListener('click', function() {{
+            // Toggle menu visibility
+            var menu = document.getElementById('user-dropdown-menu');
+            if (menu) {{
+                menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+            }}
+        }});
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {{
+            var avatar = document.getElementById('user-avatar-btn');
+            var menu = document.getElementById('user-dropdown-menu');
+            if (menu && avatar && !avatar.contains(event.target) && !menu.contains(event.target)) {{
+                menu.style.display = 'none';
+            }}
+        }});
+    </script>
+    """, unsafe_allow_html=True)
+    
+    # Dropdown menu
+    st.markdown(f"""
+    <div class="user-menu-container">
+        <div class="user-dropdown" id="user-dropdown-menu" style="display: none;">
+            <div class="user-dropdown-email">{user_email}</div>
+            <div class="user-dropdown-signout" id="user-signout-link">Sign Out</div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('user-signout-link').addEventListener('click', function() {{
+            // Trigger Streamlit button click
+            var btn = document.querySelector('button[key="user-signout-btn"]');
+            if (btn) btn.click();
+        }});
+    </script>
+    """, unsafe_allow_html=True)
+    
+    # Hidden button for sign out
+    if st.button("Sign Out", key="user-signout-btn"):
         access_token = get_access_token()
         sign_out(access_token)
         st.session_state.user = None
@@ -728,45 +1049,11 @@ if st.session_state.user:
         st.session_state.conversation_id = None
         st.session_state.data_loaded = False
         st.session_state.migration_done = False
+        st.session_state.user_menu_open = False
         st.rerun()
-else:
-    st.sidebar.markdown("### Authentication")
-    auth_tab1, auth_tab2 = st.sidebar.tabs(["Sign In", "Sign Up"])
-    
-    with auth_tab1:
-        signin_email = st.text_input("Email", key="signin_email")
-        signin_password = st.text_input("Password", type="password", key="signin_password")
-        if st.button("Sign In", key="signin_btn"):
-            result = sign_in(signin_email, signin_password)
-            if result.get("success"):
-                st.session_state.user = {
-                    "user_id": result.get("user_id"),
-                    "email": result.get("email"),
-                    "access_token": result.get("access_token"),
-                    "refresh_token": result.get("refresh_token"),
-                }
-                st.session_state.data_loaded = False
-                st.rerun()
-            else:
-                st.error(result.get("error", "Sign in failed"))
-    
-    with auth_tab2:
-        signup_email = st.text_input("Email", key="signup_email")
-        signup_password = st.text_input("Password", type="password", key="signup_password")
-        if st.button("Sign Up", key="signup_btn"):
-            result = sign_up(signup_email, signup_password)
-            if result.get("success"):
-                st.session_state.user = {
-                    "user_id": result.get("user_id"),
-                    "email": result.get("email"),
-                    "access_token": result.get("access_token"),
-                    "refresh_token": result.get("refresh_token"),
-                }
-                st.session_state.data_loaded = False
-                st.success("Account created! You are now signed in.")
-                st.rerun()
-            else:
-                st.error(result.get("error", "Sign up failed"))
+
+# Render user menu
+render_user_menu()
 
 # Load user data if authenticated
 if st.session_state.user and not st.session_state.data_loaded:
@@ -829,8 +1116,8 @@ if page == "Chat":
     </p>
     """, unsafe_allow_html=True)
     
-    # Create two columns: 75% chat, 25% recommendations
-    chat_col, rec_col = st.columns([3, 1], gap="medium")
+    # Create two columns: 70% chat, 30% recommendations (agrandi pour que les boutons soient sur la même ligne)
+    chat_col, rec_col = st.columns([2.3, 1], gap="medium")
     
     with chat_col:
         # Chat conversation
@@ -939,8 +1226,8 @@ if page == "Chat":
                     </div>
                     ''', unsafe_allow_html=True)
                     
-                    # Action buttons row
-                    btn_col1, btn_col2, btn_col3 = st.columns([1, 2, 2], gap="small")
+                    # Action buttons row - ajusté pour que "Wishlist" et "View" soient sur la même ligne
+                    btn_col1, btn_col2, btn_col3 = st.columns([1, 2.5, 2.5], gap="small")
                     with btn_col1:
                         if st.button("✖", key=f"dismiss_{book_id}", help="Dismiss", use_container_width=True):
                             if book_id not in st.session_state.dismissed_books:
@@ -949,6 +1236,9 @@ if page == "Chat":
                     with btn_col2:
                         if st.button("Wishlist", key=f"wishlist_{book_id}", help="Add to Wishlist", use_container_width=True):
                             if add_to_wishlist(book):
+                                # Reload wishlist from API to update the UI immediately
+                                access_token = get_access_token()
+                                st.session_state.wishlist = get_wishlist(access_token)
                                 st.success(f"Added to wishlist!")
                             else:
                                 st.info("Already in wishlist")
@@ -1159,13 +1449,55 @@ elif page == "Search":
                 st.markdown(f'<div style="font-size: 11px; color: #64748b; margin-top: 4px;">Source: {book.get("source", "Unknown")}</div>', unsafe_allow_html=True)
             
             with col3:
+                # Check if book is in wishlist
+                wishlist = load_wishlist()
+                is_in_wishlist = any(
+                    b.get("title") == book.get("title") and 
+                    (b.get("author") == (book.get("authors")[0] if isinstance(book.get("authors"), list) and book.get("authors") else book.get("authors")) or
+                     (isinstance(book.get("authors"), list) and len(book.get("authors")) > 0 and b.get("author") == book.get("authors")[0]))
+                    for b in wishlist
+                )
+                
                 if not is_added:
-                    st.markdown('<div class="add-button-wrapper">', unsafe_allow_html=True)
-                    add_btn = st.button("+ Add", key=f"search_add_{book.get('id')}", use_container_width=True)
-                    st.markdown('</div>', unsafe_allow_html=True)
-                    if add_btn:
-                        if add_book_to_library(book):
-                            st.rerun()
+                    # Two buttons: Add to Library and Add to Wishlist - alignés verticalement
+                    btn_col1, btn_col2 = st.columns(2, gap="small")
+                    with btn_col1:
+                        st.markdown('<div class="add-button-wrapper" style="display: flex; align-items: center; height: 100%;">', unsafe_allow_html=True)
+                        add_btn = st.button("+ Add", key=f"search_add_{book.get('id')}", use_container_width=True)
+                        st.markdown('</div>', unsafe_allow_html=True)
+                        if add_btn:
+                            if add_book_to_library(book):
+                                # Reload library to update the UI immediately
+                                access_token = get_access_token()
+                                st.session_state.library = get_library(access_token)
+                                st.rerun()
+                    with btn_col2:
+                        if not is_in_wishlist:
+                            st.markdown('<div style="display: flex; align-items: center; height: 100%;">', unsafe_allow_html=True)
+                            wishlist_btn = st.button("Wishlist", key=f"search_wishlist_{book.get('id')}", use_container_width=True)
+                            st.markdown('</div>', unsafe_allow_html=True)
+                            if wishlist_btn:
+                                # Convert search book format to wishlist format
+                                wishlist_book = {
+                                    "id": book.get("id", ""),
+                                    "title": book.get("title", ""),
+                                    "author": ", ".join(book.get("authors", [])) if isinstance(book.get("authors"), list) else str(book.get("authors", "")),
+                                    "description": book.get("description", ""),
+                                    "categories": book.get("categories", []),
+                                    "thumbnail": book.get("coverUrl", ""),
+                                    "source": book.get("source", ""),
+                                    "preview_link": book.get("previewLink", ""),
+                                }
+                                if add_to_wishlist(wishlist_book):
+                                    # Reload wishlist from API to update the UI immediately
+                                    access_token = get_access_token()
+                                    st.session_state.wishlist = get_wishlist(access_token)
+                                    st.success("Added to wishlist!")
+                                    st.rerun()
+                                else:
+                                    st.info("Already in wishlist")
+                        else:
+                            st.markdown('<div style="padding: 10px 16px; background: rgba(30, 64, 175, 0.1); border: 1px solid rgba(30, 64, 175, 0.3); border-radius: 12px; color: #60a5fa; font-size: 14px; font-weight: 500; text-align: center; display: flex; align-items: center; height: 100%;">In Wishlist ✓</div>', unsafe_allow_html=True)
                 else:
                     st.markdown('<div style="padding: 10px 16px; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 12px; color: #4ade80; font-size: 14px; font-weight: 500; text-align: center;">Added ✓</div>', unsafe_allow_html=True)
             
@@ -1231,9 +1563,9 @@ elif page == "My Library":
                                 else:
                                     st.markdown(f'<div class="book-author">by {authors}</div>', unsafe_allow_html=True)
                             
-                            # Rating stars (5 stars)
+                            # Rating stars (5 stars) - rapprochées
                             st.markdown('<div style="font-size: 12px; color: #e5e7eb; margin: 4px 0;">Rate this book:</div>', unsafe_allow_html=True)
-                            rating_cols = st.columns(5)
+                            rating_cols = st.columns(5, gap="small")
                             current_rating = book.get("rating", 0)
                             for i, col in enumerate(rating_cols):
                                 with col:
@@ -1338,18 +1670,23 @@ elif page == "My Library":
                                     library_book = {
                                         "title": book.get("title", ""),
                                         "authors": [book.get("author", "")] if book.get("author") else [],
-                                        "description": book.get("description", ""),
-                                        "categories": book.get("categories", []),
-                                        "source": book.get("source", ""),
-                                        "rawId": book.get("id", ""),
-                                        "coverUrl": book.get("thumbnail", ""),
+                                        "description": book.get("description", "") or "",
+                                        "categories": book.get("categories", []) if isinstance(book.get("categories"), list) else [],
+                                        "source": book.get("source", "") or "",
+                                        "rawId": str(book.get("id", "")) or "",
+                                        "coverUrl": book.get("thumbnail", "") or "",
                                         "rating": 0,
                                         "comment": "",
+                                        "apiRating": book.get("api_rating"),
+                                        "apiRatingsCount": book.get("api_ratings_count", 0),
                                     }
                                     if add_book_to_library(library_book):
                                         entry_id = book.get("id")  # This is the database entry ID
                                         if entry_id:
                                             remove_from_wishlist(entry_id)
+                                        # Reload library to show the new book
+                                        access_token = get_access_token()
+                                        st.session_state.library = get_library(access_token)
                                         st.success("Added to library!")
                                         st.rerun()
                                     else:

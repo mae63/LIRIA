@@ -59,10 +59,16 @@ class DatabaseService:
             authors = book.get("authors", [])
             author_str = ", ".join(authors) if isinstance(authors, list) else str(authors)
             
-            # Check if book already exists
-            existing = client.table("library_entries").select("*").eq("user_id", user_id).eq("title", book.get("title", "")).eq("author", author_str).execute()
-            if existing.data:
-                return False
+            # Check if book already exists (normalize title and author for comparison)
+            title = book.get("title", "").strip().lower()
+            # Get all existing books for this user to compare
+            all_books = client.table("library_entries").select("*").eq("user_id", user_id).execute()
+            if all_books.data:
+                for existing_book in all_books.data:
+                    existing_title = existing_book.get("title", "").strip().lower()
+                    existing_author = existing_book.get("author", "").strip().lower()
+                    if existing_title == title and existing_author == author_str.strip().lower():
+                        return False
             
             entry = {
                 "user_id": user_id,

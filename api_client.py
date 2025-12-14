@@ -105,7 +105,15 @@ def add_to_library(book: Dict, access_token: Optional[str] = None) -> bool:
         )
         if response.status_code == 200:
             return response.json().get("success", False)
-        return False
+        elif response.status_code == 422:
+            # Validation error - log the details
+            error_detail = response.json().get("detail", "Validation error")
+            print(f"[API] Validation error adding to library: {error_detail}")
+            print(f"[API] Book data: {book}")
+            return False
+        else:
+            print(f"[API] Error adding to library: {response.status_code} - {response.text}")
+            return False
     except Exception as e:
         print(f"[API] Error adding to library: {e}")
         return False
